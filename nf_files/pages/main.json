@@ -7,7 +7,10 @@
       "type": "page",
       "name": "Main",
       "parentId": null,
-      "childIds": [],
+      "childIds": [
+        "nf_58rss_JafyxAk97ADd49y_Ge4Ka",
+        "nf_XrINv4YfeKoCIJmwZUwD7_raNPQ"
+      ],
       "style": {
         "position": "relative",
         "flexDirection": "column",
@@ -21,14 +24,149 @@
         "flexShrink": 1,
         "flexGrow": 1,
         "gap": 8,
-        "paddingTop": 0,
-        "paddingRight": 16,
-        "paddingBottom": 0,
-        "paddingLeft": 16,
         "borderWidth": 0
       },
       "themeBindings": {
-        "backgroundColor": "background"
+        "backgroundColor": "primary"
+      },
+      "safeArea": {}
+    },
+    "nf_XrINv4YfeKoCIJmwZUwD7_raNPQ": {
+      "id": "nf_XrINv4YfeKoCIJmwZUwD7_raNPQ",
+      "type": "scroll_box",
+      "name": "ScrollBody",
+      "parentId": "main",
+      "childIds": [],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "alignSelf": "stretch",
+        "overflow": "scroll",
+        "borderWidth": 0,
+        "borderStyle": "solid",
+        "borderRadius": 0,
+        "flexGrow": 1,
+        "flexShrink": 1
+      },
+      "safeArea": {},
+      "contentContainerId": "nf_XjOTVhwzJPxHMHZyxhEom_3LE7Y",
+      "contentContainerStyle": {
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexDirection": "column",
+        "paddingTop": 8,
+        "paddingRight": 8,
+        "paddingBottom": 8,
+        "paddingLeft": 8,
+        "gap": 8
+      },
+      "themeBindings": {
+        "borderColor": "border",
+        "backgroundColor": "transparent",
+        "color": "text"
+      }
+    },
+    "nf_vFa0JCQUvHEMz2pxXWElJ_2laE8": {
+      "id": "nf_vFa0JCQUvHEMz2pxXWElJ_2laE8",
+      "type": "box",
+      "name": "HeaderNav",
+      "parentId": "nf_58rss_JafyxAk97ADd49y_Ge4Ka",
+      "childIds": [
+        "nf_XOVNYah1ASmm7VZqr2Wcv_dS4Mu"
+      ],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "center",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "gap": 16,
+        "paddingRight": 16,
+        "paddingLeft": 16,
+        "borderWidth": 0,
+        "borderStyle": "solid",
+        "borderRadius": 0,
+        "minHeight": 50
+      },
+      "safeArea": {},
+      "themeBindings": {
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "text"
+      }
+    },
+    "nf_XOVNYah1ASmm7VZqr2Wcv_dS4Mu": {
+      "id": "nf_XOVNYah1ASmm7VZqr2Wcv_dS4Mu",
+      "type": "text",
+      "name": "Text",
+      "parentId": "nf_vFa0JCQUvHEMz2pxXWElJ_2laE8",
+      "textData": "NativeFlow: Demo",
+      "childIds": [],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "minHeight": 0,
+        "minWidth": 0,
+        "fontSize": 20,
+        "lineHeight": 18
+      },
+      "themeBindings": {
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "background",
+        "font": "semibold"
+      },
+      "safeArea": {}
+    },
+    "nf_58rss_JafyxAk97ADd49y_Ge4Ka": {
+      "id": "nf_58rss_JafyxAk97ADd49y_Ge4Ka",
+      "type": "box",
+      "name": "Header",
+      "parentId": "main",
+      "childIds": [
+        "nf_vFa0JCQUvHEMz2pxXWElJ_2laE8"
+      ],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "gap": 16,
+        "borderWidth": 0,
+        "borderStyle": "solid",
+        "borderRadius": 0
+      },
+      "safeArea": {
+        "top": true
+      },
+      "themeBindings": {
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "text"
       }
     }
   }
