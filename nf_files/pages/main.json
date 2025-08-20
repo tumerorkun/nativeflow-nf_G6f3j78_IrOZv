@@ -37,7 +37,11 @@
       "type": "scroll_box",
       "name": "ScrollBody",
       "parentId": "main",
-      "childIds": [],
+      "childIds": [
+        "nf_GzWeGYUrkivqQgHc5LGwz_kQcBg",
+        "nf_YR5XxpduOESeyfAW_UB67_cZlT6",
+        "nf_Bniynn3pOvW0zdY9LP_f7__sMix"
+      ],
       "style": {
         "display": "flex",
         "position": "relative",
@@ -248,7 +252,7 @@
     "nf_4PDCZNMo8xPgiyH_sPefd_J1O1s": {
       "id": "nf_4PDCZNMo8xPgiyH_sPefd_J1O1s",
       "type": "box",
-      "name": "BoxView",
+      "name": "Footer",
       "parentId": "main",
       "childIds": [
         "nf_lm5Zjyxmv70yoo57l7WHK_ZXjgs"
@@ -279,6 +283,287 @@
         "borderColor": "transparent",
         "backgroundColor": "transparent",
         "color": "text"
+      }
+    },
+    "nf_GzWeGYUrkivqQgHc5LGwz_kQcBg": {
+      "id": "nf_GzWeGYUrkivqQgHc5LGwz_kQcBg",
+      "type": "box",
+      "name": "BoxView",
+      "parentId": "nf_XrINv4YfeKoCIJmwZUwD7_raNPQ",
+      "childIds": [
+        "nf_ZRXXTOAJ50sGoyuQgex68_vlTDv"
+      ],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "gap": 16,
+        "borderWidth": 0,
+        "borderStyle": "solid",
+        "borderRadius": 0
+      },
+      "safeArea": {},
+      "themeBindings": {
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "text"
+      }
+    },
+    "nf_YR5XxpduOESeyfAW_UB67_cZlT6": {
+      "id": "nf_YR5XxpduOESeyfAW_UB67_cZlT6",
+      "type": "box",
+      "name": "BoxView",
+      "parentId": "nf_XrINv4YfeKoCIJmwZUwD7_raNPQ",
+      "childIds": [],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "gap": 16,
+        "paddingTop": 16,
+        "paddingRight": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "borderWidth": 0,
+        "borderStyle": "solid",
+        "borderRadius": 8
+      },
+      "safeArea": {},
+      "themeBindings": {
+        "borderColor": "border",
+        "backgroundColor": "background",
+        "color": "text"
+      }
+    },
+    "nf_Bniynn3pOvW0zdY9LP_f7__sMix": {
+      "id": "nf_Bniynn3pOvW0zdY9LP_f7__sMix",
+      "type": "box",
+      "name": "BoxView",
+      "parentId": "nf_XrINv4YfeKoCIJmwZUwD7_raNPQ",
+      "childIds": [],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "gap": 16,
+        "paddingTop": 16,
+        "paddingRight": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "borderWidth": 0,
+        "borderStyle": "solid",
+        "borderRadius": 8
+      },
+      "safeArea": {},
+      "themeBindings": {
+        "borderColor": "border",
+        "backgroundColor": "background",
+        "color": "text"
+      }
+    },
+    "nf_ZRXXTOAJ50sGoyuQgex68_vlTDv": {
+      "id": "nf_ZRXXTOAJ50sGoyuQgex68_vlTDv",
+      "type": "scroll_box",
+      "name": "ScrollView",
+      "parentId": "nf_GzWeGYUrkivqQgHc5LGwz_kQcBg",
+      "childIds": [
+        "nf_hh7siibBHGQZJHD6Jc9Y1_JdPas",
+        "nf_Gp_O6CTdgvG4ZsNpaFkbZ_vudyV",
+        "nf_HGrTsnKShle2R9ig9ilBW_mnTPI",
+        "nf_Hb_68fIDWThzhH0t_GKtt_HMque"
+      ],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": 150,
+        "opacity": 1,
+        "alignSelf": "stretch",
+        "overflow": "scroll",
+        "borderWidth": 0,
+        "borderStyle": "solid",
+        "borderRadius": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "flexDirection": "row"
+      },
+      "safeArea": {},
+      "contentContainerId": "nf_27DSw3r_turz81QBrB4VK_BUuEJ",
+      "contentContainerStyle": {
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexDirection": "row",
+        "gap": 16
+      },
+      "themeBindings": {
+        "borderColor": "border",
+        "backgroundColor": "transparent",
+        "color": "text"
+      }
+    },
+    "nf_hh7siibBHGQZJHD6Jc9Y1_JdPas": {
+      "id": "nf_hh7siibBHGQZJHD6Jc9Y1_JdPas",
+      "type": "box",
+      "name": "BoxView",
+      "parentId": "nf_ZRXXTOAJ50sGoyuQgex68_vlTDv",
+      "childIds": [],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "gap": 16,
+        "paddingTop": 16,
+        "paddingRight": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "borderWidth": 0,
+        "borderStyle": "solid",
+        "borderRadius": 8,
+        "minWidth": 100,
+        "flexGrow": 1
+      },
+      "safeArea": {},
+      "themeBindings": {
+        "borderColor": "border",
+        "backgroundColor": "background",
+        "color": "text",
+        "elevation": "nf_fQap7u49mKix8HAbiVh6r_lpyAo"
+      }
+    },
+    "nf_Gp_O6CTdgvG4ZsNpaFkbZ_vudyV": {
+      "id": "nf_Gp_O6CTdgvG4ZsNpaFkbZ_vudyV",
+      "type": "box",
+      "name": "BoxView",
+      "parentId": "nf_ZRXXTOAJ50sGoyuQgex68_vlTDv",
+      "childIds": [],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "gap": 16,
+        "paddingTop": 16,
+        "paddingRight": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "borderWidth": 0,
+        "borderStyle": "solid",
+        "borderRadius": 8,
+        "flexGrow": 1,
+        "minWidth": 100
+      },
+      "safeArea": {},
+      "themeBindings": {
+        "borderColor": "border",
+        "backgroundColor": "background",
+        "color": "text",
+        "elevation": "nf_fQap7u49mKix8HAbiVh6r_lpyAo"
+      }
+    },
+    "nf_HGrTsnKShle2R9ig9ilBW_mnTPI": {
+      "id": "nf_HGrTsnKShle2R9ig9ilBW_mnTPI",
+      "type": "box",
+      "name": "BoxView",
+      "parentId": "nf_ZRXXTOAJ50sGoyuQgex68_vlTDv",
+      "childIds": [],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "gap": 16,
+        "paddingTop": 16,
+        "paddingRight": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "borderWidth": 0,
+        "borderStyle": "solid",
+        "borderRadius": 8,
+        "minWidth": 100
+      },
+      "safeArea": {},
+      "themeBindings": {
+        "borderColor": "border",
+        "backgroundColor": "background",
+        "color": "text",
+        "elevation": "nf_fQap7u49mKix8HAbiVh6r_lpyAo"
+      }
+    },
+    "nf_Hb_68fIDWThzhH0t_GKtt_HMque": {
+      "id": "nf_Hb_68fIDWThzhH0t_GKtt_HMque",
+      "type": "box",
+      "name": "BoxView",
+      "parentId": "nf_ZRXXTOAJ50sGoyuQgex68_vlTDv",
+      "childIds": [],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "gap": 16,
+        "paddingTop": 16,
+        "paddingRight": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "borderWidth": 0,
+        "borderStyle": "solid",
+        "borderRadius": 8,
+        "minWidth": 100
+      },
+      "safeArea": {},
+      "themeBindings": {
+        "borderColor": "border",
+        "backgroundColor": "background",
+        "color": "text",
+        "elevation": "nf_fQap7u49mKix8HAbiVh6r_lpyAo"
       }
     }
   }
