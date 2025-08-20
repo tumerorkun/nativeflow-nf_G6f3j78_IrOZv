@@ -7,7 +7,8 @@
     "border": "#eeeeee",
     "notification": "#004883",
     "transparent": "transparent",
-    "test": "#ffffff"
+    "test": "#ffffff",
+    "black-030": "#0000004d"
   },
   "light": {
     "primary": "#004883",
@@ -17,6 +18,7 @@
     "border": "#030303",
     "notification": "#048bc3",
     "transparent": "transparent",
-    "test": "#000000"
+    "test": "#000000",
+    "black-030": "#0000004d"
   }
 }
