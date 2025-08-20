@@ -7,12 +7,14 @@
       "type": "page",
       "name": "Splash",
       "parentId": null,
-      "childIds": [],
+      "childIds": [
+        "nf_9gmfkifZn2DfoxA0A58dt_HPTB4"
+      ],
       "style": {
         "position": "relative",
         "flexDirection": "column",
-        "alignContent": "stretch",
-        "alignItems": "stretch",
+        "alignContent": "center",
+        "alignItems": "center",
         "justifyContent": "center",
         "flexWrap": "nowrap",
         "width": "100%",
@@ -29,7 +31,38 @@
       },
       "themeBindings": {
         "backgroundColor": "primary"
-      }
+      },
+      "safeArea": {}
+    },
+    "nf_9gmfkifZn2DfoxA0A58dt_HPTB4": {
+      "id": "nf_9gmfkifZn2DfoxA0A58dt_HPTB4",
+      "type": "text",
+      "name": "Text",
+      "parentId": "splash",
+      "textData": "NativeFlow: Demo",
+      "childIds": [],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "minHeight": 0,
+        "minWidth": 0,
+        "fontSize": 22,
+        "lineHeight": 24
+      },
+      "themeBindings": {
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "card"
+      },
+      "safeArea": {}
     }
   }
 }
