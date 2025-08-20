@@ -1,0 +1,16 @@
+[
+  {
+    "type": "page",
+    "id": "splash"
+  },
+  {
+    "type": "stack",
+    "id": "main_stack",
+    "children": [
+      {
+        "type": "page",
+        "id": "main"
+      }
+    ]
+  }
+]

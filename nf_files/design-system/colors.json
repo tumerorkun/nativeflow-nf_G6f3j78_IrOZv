@@ -1,0 +1,22 @@
+{
+  "dark": {
+    "primary": "#048bc3",
+    "background": "#030303",
+    "card": "#111111",
+    "text": "#e2e8f0",
+    "border": "#eeeeee",
+    "notification": "#004883",
+    "transparent": "transparent",
+    "test": "#ffffff"
+  },
+  "light": {
+    "primary": "#004883",
+    "background": "#eeeeee",
+    "card": "#f3f3f3",
+    "text": "#073447",
+    "border": "#030303",
+    "notification": "#048bc3",
+    "transparent": "transparent",
+    "test": "#000000"
+  }
+}

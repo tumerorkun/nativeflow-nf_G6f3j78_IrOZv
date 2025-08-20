@@ -1,0 +1,196 @@
+{
+  "light": {
+    "nf_fQap7u49mKix8HAbiVh6r_lpyAo": {
+      "name": "elevation-1",
+      "elevation": [
+        {
+          "offsetX": 0,
+          "offsetY": 1,
+          "blurRadius": 2,
+          "spreadDistance": 0,
+          "color": "black-030"
+        },
+        {
+          "offsetX": 0,
+          "offsetY": 1,
+          "blurRadius": 3,
+          "spreadDistance": 1,
+          "color": "black-015"
+        }
+      ]
+    },
+    "nf_IOY7r6TVgEkHpl_wmk6ZD_NByBh": {
+      "name": "elevation-2",
+      "elevation": [
+        {
+          "offsetX": 0,
+          "offsetY": 1,
+          "blurRadius": 2,
+          "spreadDistance": 0,
+          "color": "black-030"
+        },
+        {
+          "offsetX": 0,
+          "offsetY": 2,
+          "blurRadius": 6,
+          "spreadDistance": 2,
+          "color": "black-015"
+        }
+      ]
+    },
+    "nf_AiQcIgF5IvEKvPzMUehxL_mHvfI": {
+      "name": "elevation-3",
+      "elevation": [
+        {
+          "offsetX": 0,
+          "offsetY": 4,
+          "blurRadius": 8,
+          "spreadDistance": 3,
+          "color": "black-015"
+        },
+        {
+          "offsetX": 0,
+          "offsetY": 1,
+          "blurRadius": 3,
+          "spreadDistance": 0,
+          "color": "black-030"
+        }
+      ]
+    },
+    "nf_8bN3tBxRcGDT2e6c2vhZP_oxf8v": {
+      "name": "elevation-4",
+      "elevation": [
+        {
+          "offsetX": 0,
+          "offsetY": 6,
+          "blurRadius": 10,
+          "spreadDistance": 4,
+          "color": "black-015"
+        },
+        {
+          "offsetX": 0,
+          "offsetY": 2,
+          "blurRadius": 3,
+          "spreadDistance": 0,
+          "color": "black-030"
+        }
+      ]
+    },
+    "nf_EguCQRIsNWdruZLx35c1F_zKOlE": {
+      "name": "elevation-5",
+      "elevation": [
+        {
+          "offsetX": 0,
+          "offsetY": 8,
+          "blurRadius": 12,
+          "spreadDistance": 6,
+          "color": "black-015"
+        },
+        {
+          "offsetX": 0,
+          "offsetY": 4,
+          "blurRadius": 4,
+          "spreadDistance": 0,
+          "color": "black-030"
+        }
+      ]
+    }
+  },
+  "dark": {
+    "nf_fQap7u49mKix8HAbiVh6r_lpyAo": {
+      "name": "elevation-1",
+      "elevation": [
+        {
+          "offsetX": 0,
+          "offsetY": 1,
+          "blurRadius": 3,
+          "spreadDistance": 1,
+          "color": "black-015"
+        },
+        {
+          "offsetX": 0,
+          "offsetY": 1,
+          "blurRadius": 2,
+          "spreadDistance": 0,
+          "color": "black-030"
+        }
+      ]
+    },
+    "nf_IOY7r6TVgEkHpl_wmk6ZD_NByBh": {
+      "name": "elevation-2",
+      "elevation": [
+        {
+          "offsetX": 0,
+          "offsetY": 2,
+          "blurRadius": 6,
+          "spreadDistance": 2,
+          "color": "black-015"
+        },
+        {
+          "offsetX": 0,
+          "offsetY": 1,
+          "blurRadius": 2,
+          "spreadDistance": 0,
+          "color": "black-030"
+        }
+      ]
+    },
+    "nf_AiQcIgF5IvEKvPzMUehxL_mHvfI": {
+      "name": "elevation-3",
+      "elevation": [
+        {
+          "offsetX": 0,
+          "offsetY": 4,
+          "blurRadius": 8,
+          "spreadDistance": 3,
+          "color": "black-015"
+        },
+        {
+          "offsetX": 0,
+          "offsetY": 1,
+          "blurRadius": 3,
+          "spreadDistance": 0,
+          "color": "black-030"
+        }
+      ]
+    },
+    "nf_8bN3tBxRcGDT2e6c2vhZP_oxf8v": {
+      "name": "elevation-4",
+      "elevation": [
+        {
+          "offsetX": 0,
+          "offsetY": 6,
+          "blurRadius": 10,
+          "spreadDistance": 4,
+          "color": "black-015"
+        },
+        {
+          "offsetX": 0,
+          "offsetY": 2,
+          "blurRadius": 3,
+          "spreadDistance": 0,
+          "color": "black-030"
+        }
+      ]
+    },
+    "nf_EguCQRIsNWdruZLx35c1F_zKOlE": {
+      "name": "elevation-5",
+      "elevation": [
+        {
+          "offsetX": 0,
+          "offsetY": 8,
+          "blurRadius": 12,
+          "spreadDistance": 6,
+          "color": "black-015"
+        },
+        {
+          "offsetX": 0,
+          "offsetY": 4,
+          "blurRadius": 4,
+          "spreadDistance": 0,
+          "color": "black-030"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "rootId": "main",
+  "homeIndicator": "visible",
+  "components": {
+    "main": {
+      "id": "main",
+      "type": "page",
+      "name": "Main",
+      "parentId": null,
+      "childIds": [],
+      "style": {
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "stretch",
+        "alignItems": "stretch",
+        "justifyContent": "center",
+        "flexWrap": "nowrap",
+        "width": "100%",
+        "height": "100%",
+        "display": "flex",
+        "flexShrink": 1,
+        "flexGrow": 1,
+        "gap": 8,
+        "paddingTop": 0,
+        "paddingRight": 16,
+        "paddingBottom": 0,
+        "paddingLeft": 16,
+        "borderWidth": 0
+      },
+      "themeBindings": {
+        "backgroundColor": "background"
+      }
+    }
+  }
+}

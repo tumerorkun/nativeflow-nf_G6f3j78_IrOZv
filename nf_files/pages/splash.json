@@ -1,0 +1,35 @@
+{
+  "rootId": "splash",
+  "homeIndicator": "visible",
+  "components": {
+    "splash": {
+      "id": "splash",
+      "type": "page",
+      "name": "Splash",
+      "parentId": null,
+      "childIds": [],
+      "style": {
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "stretch",
+        "alignItems": "stretch",
+        "justifyContent": "center",
+        "flexWrap": "nowrap",
+        "width": "100%",
+        "height": "100%",
+        "display": "flex",
+        "flexShrink": 1,
+        "flexGrow": 1,
+        "gap": 8,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "borderWidth": 0
+      },
+      "themeBindings": {
+        "backgroundColor": "primary"
+      }
+    }
+  }
+}

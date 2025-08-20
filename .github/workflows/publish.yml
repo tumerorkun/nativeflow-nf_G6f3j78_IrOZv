@@ -1,0 +1,104 @@
+name: Publish to Test Environments
+
+on:
+  workflow_dispatch:
+    inputs:
+      sdk_version:
+        description: "Nativeflow sdk version"
+        default: "0.0.1"
+      sdk_location:
+        description: "Nativeflow sdk location to download"
+        default: "nativeflow.app"
+      name:
+        description: "name of your application"
+        default: "NativeFlow Application"
+      version:
+        description: "Semver version"
+        default: "1.0.0"
+      bundle_id:
+        description: "Unique bundle id of your app"
+        default: "app.nativeflow.base"
+
+jobs:
+  iOS:
+    runs-on: macos-15
+    env:
+        APP_IDENTIFIER: ${{ github.event.inputs.bundle_id }}
+        APPLE_USERNAME: ${{ secrets.APPLE_USERNAME }}
+        APPLE_DEVELOPER_PORTAL_TEAM_ID: ${{ secrets.APPLE_DEVELOPER_PORTAL_TEAM_ID }}
+        APPLE_STORE_CONNECT_TEAM_ID: ${{ secrets.APPLE_STORE_CONNECT_TEAM_ID }}
+        APPLE_KEY_ID: ${{ secrets.APPLE_KEY_ID }}
+        APPLE_ISSUER_ID: ${{ secrets.APPLE_ISSUER_ID }}
+        MATCH_REPO_USERNAME: ${{ secrets.MATCH_REPO_USERNAME }}
+        MATCH_REPO_URL: ${{ secrets.MATCH_REPO_URL }}
+        MATCH_PASSWORD: ${{ secrets.MATCH_REPO_PASSWORD }}
+        MATCH_REPO_BRANCH: ${{ secrets.MATCH_REPO_BRANCH }}
+    steps:
+      - name: Set Xcode version 
+        run: sudo xcode-select -s /Applications/Xcode_16.4.0.app
+
+      - uses: actions/checkout@v4
+
+      - name: Cache SDK
+        uses: actions/cache@v4
+        id: base-sdk-cache
+        with:
+          path: base-${{ github.event.inputs.sdk_version }}.zip
+          key: base-sdk-v${{ github.event.inputs.sdk_version }}
+      - name: Install SDK
+        if: steps.base-sdk-cache.outputs.cache-hit != 'true'
+        run: wget "https://${{ github.event.inputs.sdk_location }}/sdk/base-${{ github.event.inputs.sdk_version }}.zip"
+      - name: Unzip SDK
+        run: unzip base-${{ github.event.inputs.sdk_version }}.zip -d ./base-sdk
+      - name: Extract SDK
+        run: |
+          shopt -s extglob
+          mv base-sdk/*!(.|..) ./
+          mv base-sdk/.*!(.|..) ./
+
+      - name: Move NF Files to sources
+        run: mv nf_files src/nf_files
+
+      - name: Set up Xcode version
+        run: sudo xcode-select -s /Applications/Xcode_16.3.app/Contents/Developer
+      - name: Show current version of Xcode
+        run: xcodebuild -version
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22.14.0
+          cache: 'npm'
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.4.2
+
+      - name: Cache Vendor
+        uses: actions/cache@v4
+        id: vendor-cache
+        with:
+          path: ./vendor
+          key: ${{ runner.os }}-ios-vendor-${{ hashFiles('./Gemfile.lock') }}
+
+      - name: Cache iOS Pods
+        uses: actions/cache@v4
+        id: ios-pods-cache
+        with:
+          path: ./ios/Pods
+          key: ${{ runner.os }}-pods-${{ hashFiles('**/Podfile.lock') }}
+
+      - name: Install Node Modules
+        run: npm ci
+
+      - name: Install Gems and iOS Pods
+        run: npm run pod-install
+
+      - name: Set App Info
+        run: npm run app set -- --name "${{ github.event.inputs.name }}" --market-version "${{ github.event.inputs.version }}" --bundle-id "${{ github.event.inputs.bundle_id }}"
+
+      - name: Build & Sign & Publish to TestFlight
+        run: |
+            echo "${{ secrets.APPLE_P8_AUTH_KEY }}" > ios/fastlane/secretKey.p8
+            echo "${{ secrets.MATCH_REPO_PRIVATE_KEY }}" > ios/fastlane/fastlane_certs_match_cli
+            chmod 400 ios/fastlane/fastlane_certs_match_cli
+            npm run ios:build

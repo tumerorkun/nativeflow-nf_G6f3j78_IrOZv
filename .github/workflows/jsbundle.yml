@@ -1,0 +1,145 @@
+name: Create JS Bundle
+
+on:
+  workflow_dispatch:
+    inputs:
+      sdk_version:
+        description: "Nativeflow sdk version"
+        default: "0.0.1"
+      sdk_location:
+        description: "Nativeflow sdk location to download"
+        default: "nativeflow.app"
+      name:
+        description: "name of your application"
+        default: "NativeFlow Application"
+      version:
+        description: "Semver version"
+        default: "1.0.0"
+      bundle_id:
+        description: "Unique bundle id of your app"
+        default: "app.nativeflow.base"
+      bundle_version:
+        description: "Bundle version of your app"
+        default: "1"
+      owner:
+        description: "Application owner"
+        default: "NativeFlow"
+
+jobs:
+  iOS:
+    runs-on: macos-15
+    steps:
+      - name: Set Xcode version 
+        run: sudo xcode-select -s /Applications/Xcode_16.4.0.app
+
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.4.2
+
+      - name: Cache SDK
+        uses: actions/cache@v4
+        id: base-sdk-cache
+        with:
+          path: base-${{ github.event.inputs.sdk_version }}.zip
+          key: base-sdk-v${{ github.event.inputs.sdk_version }}
+      - name: Install SDK
+        if: steps.base-sdk-cache.outputs.cache-hit != 'true'
+        run: wget "https://${{ github.event.inputs.sdk_location }}/sdk/base-${{ github.event.inputs.sdk_version }}.zip"
+
+      - name: Unzip SDK
+        run: unzip base-${{ github.event.inputs.sdk_version }}.zip -d ./base-sdk
+
+      - name: Extract SDK
+        run: |
+          shopt -s extglob
+          mv base-sdk/*!(.|..) ./
+          mv base-sdk/.*!(.|..) ./
+
+      - name: Move NF Files to sources
+        run: mv nf_files src/nf_files
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22.14.0
+          cache: 'npm'
+
+      - name: Install Node Modules
+        run: npm ci
+
+      - name: Cache Vendor
+        uses: actions/cache@v4
+        id: vendor-cache # use this to check for 'cache-hit' ('steps.vendor-cache.outputs.cache-hit != 'true'')
+        with:
+          path: ./vendor
+          key: ${{ runner.os }}-ios-vendor-${{ hashFiles('./Gemfile.lock') }}
+
+      - name: Cache iOS Pods
+        uses: actions/cache@v4
+        id: ios-pods-cache
+        with:
+          path: ./ios/Pods
+          key: ${{ runner.os }}-pods-${{ hashFiles('**/Podfile.lock') }}
+
+      - name: Install Gems and iOS Pods
+        run: npm run pod-install
+
+      - name: Set App Info
+        run: npm run app set -- --name "${{ github.event.inputs.name }}" --market-version "${{ github.event.inputs.version }}" --bundle-id "${{ github.event.inputs.bundle_id }}" --bundle-version ${{ github.event.inputs.bundle_version }} --owner "${{ github.event.inputs.owner }}"
+
+      - name: Create JS Bundle
+        run: npm run app archive -- --platform=ios
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ github.event.inputs.bundle_id }}_ios
+          path: build/${{ github.event.inputs.bundle_id }}_ios.zip
+          retention-days: 90
+
+  Android:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Cache SDK
+        uses: actions/cache@v4
+        id: base-sdk-cache
+        with:
+          path: base-${{ github.event.inputs.sdk_version }}.zip
+          key: base-sdk-v${{ github.event.inputs.sdk_version }}
+      - name: Install SDK
+        if: steps.base-sdk-cache.outputs.cache-hit != 'true'
+        run: wget "https://${{ github.event.inputs.sdk_location }}/sdk/base-${{ github.event.inputs.sdk_version }}.zip"
+
+      - name: Unzip SDK
+        run: unzip base-${{ github.event.inputs.sdk_version }}.zip -d ./base-sdk
+
+      - name: Extract SDK
+        run: |
+          shopt -s extglob
+          mv base-sdk/*!(.|..) ./
+          mv base-sdk/.*!(.|..) ./
+
+      - name: Move NF Files to sources
+        run: mv nf_files src/nf_files
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22.14.0
+          cache: 'npm'
+
+      - name: Install Node Modules
+        run: npm ci
+
+      - name: Set App Info
+        run: npm run app set -- --name "${{ github.event.inputs.name }}" --market-version "${{ github.event.inputs.version }}" --bundle-id "${{ github.event.inputs.bundle_id }}" --bundle-version ${{ github.event.inputs.bundle_version }} --owner "${{ github.event.inputs.owner }}"
+
+      - name: Create JS Bundle
+        run: npm run app archive -- --platform=android
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ github.event.inputs.bundle_id }}_android
+          path: build/${{ github.event.inputs.bundle_id }}_android.zip
+          retention-days: 90
