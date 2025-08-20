@@ -8,7 +8,8 @@
     "notification": "#004883",
     "transparent": "transparent",
     "test": "#ffffff",
-    "black-030": "#0000004d"
+    "black-030": "#0000004d",
+    "black-015": "#00000026"
   },
   "light": {
     "primary": "#004883",
@@ -19,6 +20,7 @@
     "notification": "#048bc3",
     "transparent": "transparent",
     "test": "#000000",
-    "black-030": "#0000004d"
+    "black-030": "#0000004d",
+    "black-015": "#00000026"
   }
 }
