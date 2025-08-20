@@ -68,7 +68,7 @@
         "paddingRight": 8,
         "paddingBottom": 8,
         "paddingLeft": 8,
-        "gap": 8
+        "gap": 16
       },
       "themeBindings": {
         "borderColor": "border",
@@ -131,7 +131,7 @@
         "minHeight": 0,
         "minWidth": 0,
         "fontSize": 20,
-        "lineHeight": 18
+        "lineHeight": 22
       },
       "themeBindings": {
         "borderColor": "transparent",
