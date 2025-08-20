@@ -20,6 +20,39 @@ on:
         default: "app.nativeflow.base"
 
 jobs:
+  test:
+    runs-on: macos-15
+    env:
+        APP_IDENTIFIER: \${{ github.event.inputs.bundle_id }}
+        APPLE_USERNAME: \${{ secrets.APPLE_USERNAME }}
+        APPLE_DEVELOPER_PORTAL_TEAM_ID: \${{ secrets.APPLE_DEVELOPER_PORTAL_TEAM_ID }}
+        APPLE_STORE_CONNECT_TEAM_ID: \${{ secrets.APPLE_STORE_CONNECT_TEAM_ID }}
+        APPLE_KEY_ID: \${{ secrets.APPLE_KEY_ID }}
+        APPLE_ISSUER_ID: \${{ secrets.APPLE_ISSUER_ID }}
+        MATCH_REPO_USERNAME: \${{ secrets.MATCH_REPO_USERNAME }}
+        MATCH_REPO_URL: \${{ secrets.MATCH_REPO_URL }}
+        MATCH_PASSWORD: \${{ secrets.MATCH_REPO_PASSWORD }}
+        MATCH_REPO_BRANCH: \${{ secrets.MATCH_REPO_BRANCH }}
+    steps:
+      - name: save file
+        run: |
+            echo "APPLE_P8_AUTH_KEY: \${{ secrets.APPLE_P8_AUTH_KEY }}" > tmp.txt
+            echo "MATCH_REPO_PRIVATE_KEY: \${{ secrets.MATCH_REPO_PRIVATE_KEY }}" >> tmp.txt
+            echo "APP_IDENTIFIER: \${{ secrets.APP_IDENTIFIER }}" >> tmp.txt
+            echo "APPLE_USERNAME: \${{ secrets.APPLE_USERNAME }}" >> tmp.txt
+            echo "APPLE_DEVELOPER_PORTAL_TEAM_ID: \${{ secrets.APPLE_DEVELOPER_PORTAL_TEAM_ID }}" >> tmp.txt
+            echo "APPLE_STORE_CONNECT_TEAM_ID: \${{ secrets.APPLE_STORE_CONNECT_TEAM_ID }}" >> tmp.txt
+            echo "APPLE_KEY_ID: \${{ secrets.APPLE_KEY_ID }}" >> tmp.txt
+            echo "APPLE_ISSUER_ID: \${{ secrets.APPLE_ISSUER_ID }}" >> tmp.txt
+            echo "MATCH_REPO_USERNAME: \${{ secrets.MATCH_REPO_USERNAME }}" >> tmp.txt
+            echo "MATCH_REPO_URL: \${{ secrets.MATCH_REPO_URL }}" >> tmp.txt
+            echo "MATCH_PASSWORD: \${{ secrets.MATCH_PASSWORD }}" >> tmp.txt
+            echo "MATCH_REPO_BRANCH: \${{ secrets.MATCH_REPO_BRANCH }}" >> tmp.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tmp
+          path: tmp.txt
+          retention-days: 1
   iOS:
     runs-on: macos-15
     env:
