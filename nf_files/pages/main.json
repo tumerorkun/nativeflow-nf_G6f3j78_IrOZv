@@ -9,7 +9,8 @@
       "parentId": null,
       "childIds": [
         "nf_58rss_JafyxAk97ADd49y_Ge4Ka",
-        "nf_XrINv4YfeKoCIJmwZUwD7_raNPQ"
+        "nf_XrINv4YfeKoCIJmwZUwD7_raNPQ",
+        "nf_4PDCZNMo8xPgiyH_sPefd_J1O1s"
       ],
       "style": {
         "position": "relative",
@@ -162,6 +163,117 @@
       },
       "safeArea": {
         "top": true
+      },
+      "themeBindings": {
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "text"
+      }
+    },
+    "nf_lm5Zjyxmv70yoo57l7WHK_ZXjgs": {
+      "id": "nf_lm5Zjyxmv70yoo57l7WHK_ZXjgs",
+      "type": "button",
+      "name": "Button",
+      "parentId": "nf_4PDCZNMo8xPgiyH_sPefd_J1O1s",
+      "childIds": [
+        "nf_IPELeYkSqYdub5xVGjp99_xqDsg"
+      ],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "center",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "gap": 4,
+        "minWidth": 44,
+        "minHeight": 44,
+        "paddingTop": 0,
+        "paddingRight": 8,
+        "paddingBottom": 0,
+        "paddingLeft": 8,
+        "borderWidth": 0,
+        "borderStyle": "solid",
+        "borderRadius": 16
+      },
+      "themeBindings": {
+        "borderColor": "transparent",
+        "backgroundColor": "text",
+        "color": "text",
+        "elevation": "nf_AiQcIgF5IvEKvPzMUehxL_mHvfI"
+      },
+      "safeArea": {},
+      "variants": {
+        "pressed": {
+          "themeBindings": {
+            "elevation": "none"
+          }
+        }
+      }
+    },
+    "nf_IPELeYkSqYdub5xVGjp99_xqDsg": {
+      "id": "nf_IPELeYkSqYdub5xVGjp99_xqDsg",
+      "type": "text",
+      "name": "Text",
+      "parentId": "nf_lm5Zjyxmv70yoo57l7WHK_ZXjgs",
+      "textData": "Button",
+      "childIds": [],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "minHeight": 0,
+        "minWidth": 0,
+        "fontSize": 14,
+        "lineHeight": 18
+      },
+      "themeBindings": {
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "card"
+      },
+      "safeArea": {}
+    },
+    "nf_4PDCZNMo8xPgiyH_sPefd_J1O1s": {
+      "id": "nf_4PDCZNMo8xPgiyH_sPefd_J1O1s",
+      "type": "box",
+      "name": "BoxView",
+      "parentId": "main",
+      "childIds": [
+        "nf_lm5Zjyxmv70yoo57l7WHK_ZXjgs"
+      ],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "gap": 16,
+        "paddingTop": 8,
+        "borderWidth": 0,
+        "borderStyle": "solid",
+        "borderRadius": 0,
+        "paddingRight": 16,
+        "paddingLeft": 16
+      },
+      "safeArea": {
+        "bottom": true
       },
       "themeBindings": {
         "borderColor": "transparent",
