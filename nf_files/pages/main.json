@@ -40,7 +40,8 @@
       "childIds": [
         "nf_GzWeGYUrkivqQgHc5LGwz_kQcBg",
         "nf_YR5XxpduOESeyfAW_UB67_cZlT6",
-        "nf_Bniynn3pOvW0zdY9LP_f7__sMix"
+        "nf_Bniynn3pOvW0zdY9LP_f7__sMix",
+        "nf_tfgVZxNoX609Xvo_IeXqI_rkJqC"
       ],
       "style": {
         "display": "flex",
@@ -565,6 +566,14 @@
         "color": "text",
         "elevation": "nf_fQap7u49mKix8HAbiVh6r_lpyAo"
       }
+    },
+    "nf_tfgVZxNoX609Xvo_IeXqI_rkJqC": {
+      "id": "nf_tfgVZxNoX609Xvo_IeXqI_rkJqC",
+      "name": "BoxView",
+      "type": "reference",
+      "referenceId": "nf_DTRYbdejGqqhglpDo3iMc_3jnjB",
+      "parentId": "nf_XrINv4YfeKoCIJmwZUwD7_raNPQ",
+      "childIds": []
     }
   }
 }
