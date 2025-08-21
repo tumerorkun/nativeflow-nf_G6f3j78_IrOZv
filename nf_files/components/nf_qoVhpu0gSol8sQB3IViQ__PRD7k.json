@@ -1,0 +1,48 @@
+{
+  "rootId": "nf_qoVhpu0gSol8sQB3IViQ__PRD7k",
+  "components": {
+    "nf_qoVhpu0gSol8sQB3IViQ__PRD7k": {
+      "id": "nf_qoVhpu0gSol8sQB3IViQ__PRD7k",
+      "type": "box",
+      "name": "BoxView",
+      "parentId": null,
+      "childIds": [
+        "nf_8V22Rdr56_k5sgqE14ykx_SddtX"
+      ],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "gap": 16,
+        "paddingTop": 16,
+        "paddingRight": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "borderRadius": 8
+      },
+      "safeArea": {},
+      "themeBindings": {
+        "borderColor": "border",
+        "backgroundColor": "background",
+        "color": "text"
+      }
+    },
+    "nf_8V22Rdr56_k5sgqE14ykx_SddtX": {
+      "id": "nf_8V22Rdr56_k5sgqE14ykx_SddtX",
+      "name": "BoxView",
+      "type": "reference",
+      "referenceId": "nf_Fl3YNXf7GEFF6Sf1zkx2M_L9jRf",
+      "parentId": "nf_qoVhpu0gSol8sQB3IViQ__PRD7k",
+      "childIds": []
+    }
+  }
+}
