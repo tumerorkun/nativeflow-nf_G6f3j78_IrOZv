@@ -7,7 +7,7 @@
       "name": "BoxView",
       "parentId": null,
       "childIds": [
-        "nf_445eo1C7dEfC8eaF3aJpQ_2Y1Cf"
+        "nf_c5fqBeBrd9lcNV0vbTqJx_rZBjD"
       ],
       "style": {
         "display": "flex",
@@ -36,8 +36,8 @@
         "color": "text"
       }
     },
-    "nf_445eo1C7dEfC8eaF3aJpQ_2Y1Cf": {
-      "id": "nf_445eo1C7dEfC8eaF3aJpQ_2Y1Cf",
+    "nf_c5fqBeBrd9lcNV0vbTqJx_rZBjD": {
+      "id": "nf_c5fqBeBrd9lcNV0vbTqJx_rZBjD",
       "type": "text",
       "name": "Text",
       "parentId": "nf_Fl3YNXf7GEFF6Sf1zkx2M_L9jRf",
