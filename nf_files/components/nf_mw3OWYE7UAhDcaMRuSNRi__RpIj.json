@@ -1,0 +1,38 @@
+{
+  "rootId": "nf_mw3OWYE7UAhDcaMRuSNRi__RpIj",
+  "components": {
+    "nf_mw3OWYE7UAhDcaMRuSNRi__RpIj": {
+      "id": "nf_mw3OWYE7UAhDcaMRuSNRi__RpIj",
+      "type": "box",
+      "name": "BoxView",
+      "parentId": null,
+      "childIds": [],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "gap": 16,
+        "paddingTop": 16,
+        "paddingRight": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "borderRadius": 8
+      },
+      "safeArea": {},
+      "themeBindings": {
+        "borderColor": "border",
+        "backgroundColor": "background",
+        "color": "text"
+      }
+    }
+  }
+}
