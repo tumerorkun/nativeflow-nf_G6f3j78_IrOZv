@@ -6,6 +6,41 @@
       "type": "box",
       "name": "Test1",
       "parentId": null,
+      "childIds": [
+        "nf_c24Zeo29hpS5Y5w9Dg3WJ_vn3Bx"
+      ],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "gap": 16,
+        "paddingTop": 16,
+        "paddingRight": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "borderWidth": 0,
+        "borderStyle": "solid",
+        "borderRadius": 0
+      },
+      "safeArea": {},
+      "themeBindings": {
+        "borderColor": "border",
+        "backgroundColor": "notification",
+        "color": "text"
+      }
+    },
+    "nf_c24Zeo29hpS5Y5w9Dg3WJ_vn3Bx": {
+      "id": "nf_c24Zeo29hpS5Y5w9Dg3WJ_vn3Bx",
+      "type": "slot",
+      "name": "SlotBox",
+      "parentId": "nf_DTRYbdejGqqhglpDo3iMc_3jnjB",
       "childIds": [],
       "style": {
         "display": "flex",
@@ -29,9 +64,9 @@
       },
       "safeArea": {},
       "themeBindings": {
-        "borderColor": "border",
-        "backgroundColor": "background",
-        "color": "text"
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "transparent"
       }
     }
   }
