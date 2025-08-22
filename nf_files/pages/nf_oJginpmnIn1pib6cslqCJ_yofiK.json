@@ -277,7 +277,6 @@
       "name": "Body",
       "parentId": "nf_oJginpmnIn1pib6cslqCJ_yofiK",
       "childIds": [
-        "nf_ObeyF7dHwBcN2dRinJGcf_ZSz_I",
         "nf_8swIUwC1adzNy0fJ1R0JL_O3a_L",
         "nf_EgBBEQXCwUXI0R3RM8CZd_021XP",
         "nf_g12dv8_U0qsl5EMirICl1_tH2ta",
@@ -566,24 +565,6 @@
         "backgroundColor": "transparent",
         "color": "text"
       }
-    },
-    "nf_ObeyF7dHwBcN2dRinJGcf_ZSz_I": {
-      "id": "nf_ObeyF7dHwBcN2dRinJGcf_ZSz_I",
-      "name": "Card",
-      "type": "reference",
-      "referenceId": "nf_vDIO_ncac5O2SbRei7yr0_yDc_1",
-      "childIds": [
-        "nf_GjVMhcG9OnQmxmKS5zbcE_PybxW"
-      ],
-      "parentId": "nf_LTe9gUETC2mrmFCLG8WM5_B0qr4"
-    },
-    "nf_GjVMhcG9OnQmxmKS5zbcE_PybxW": {
-      "id": "nf_GjVMhcG9OnQmxmKS5zbcE_PybxW",
-      "name": "HeaderSlot",
-      "type": "slot_binder",
-      "slotId": "nf_1PGWMY9laTtUZh6RcjSvD_PcE9d",
-      "parentId": "nf_ObeyF7dHwBcN2dRinJGcf_ZSz_I",
-      "childIds": []
     },
     "nf_8swIUwC1adzNy0fJ1R0JL_O3a_L": {
       "id": "nf_8swIUwC1adzNy0fJ1R0JL_O3a_L",
