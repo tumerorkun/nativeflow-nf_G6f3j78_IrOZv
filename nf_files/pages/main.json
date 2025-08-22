@@ -267,7 +267,8 @@
       "name": "Footer",
       "parentId": "main",
       "childIds": [
-        "nf_lm5Zjyxmv70yoo57l7WHK_ZXjgs"
+        "nf_lm5Zjyxmv70yoo57l7WHK_ZXjgs",
+        "nf_Y3Jn1yrWj0Emw_EmbEK8D_4cu2E"
       ],
       "style": {
         "display": "flex",
@@ -585,6 +586,84 @@
       "referenceId": "nf_DTRYbdejGqqhglpDo3iMc_3jnjB",
       "parentId": "nf_XrINv4YfeKoCIJmwZUwD7_raNPQ",
       "childIds": []
+    },
+    "nf_Y3Jn1yrWj0Emw_EmbEK8D_4cu2E": {
+      "id": "nf_Y3Jn1yrWj0Emw_EmbEK8D_4cu2E",
+      "type": "button",
+      "name": "Button",
+      "parentId": "nf_4PDCZNMo8xPgiyH_sPefd_J1O1s",
+      "childIds": [
+        "nf_Jl33dG_ClIXls6cPztEWT_amPM1"
+      ],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "center",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "gap": 4,
+        "minWidth": 44,
+        "minHeight": 44,
+        "paddingTop": 0,
+        "paddingRight": 8,
+        "paddingBottom": 0,
+        "paddingLeft": 8,
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "borderRadius": 16
+      },
+      "themeBindings": {
+        "borderColor": "border",
+        "backgroundColor": "background",
+        "color": "text"
+      },
+      "actions": {
+        "onPress": [
+          {
+            "id": "nf_6qLomrn9ln_wx0EvlQ3x7_VB1wt",
+            "type": "navigation",
+            "method": "navigate",
+            "to": "nf_Iq9M728eoe3VU3sGKZm5F_QYCyu",
+            "payload": {}
+          }
+        ]
+      },
+      "safeArea": {}
+    },
+    "nf_Jl33dG_ClIXls6cPztEWT_amPM1": {
+      "id": "nf_Jl33dG_ClIXls6cPztEWT_amPM1",
+      "type": "text",
+      "name": "Text",
+      "parentId": "nf_Y3Jn1yrWj0Emw_EmbEK8D_4cu2E",
+      "textData": "Go to Test Screen",
+      "childIds": [],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "minHeight": 0,
+        "minWidth": 0,
+        "fontSize": 14,
+        "lineHeight": 18
+      },
+      "themeBindings": {
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "text"
+      },
+      "safeArea": {}
     }
   }
 }
