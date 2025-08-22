@@ -7,6 +7,8 @@
       "name": "Test1",
       "parentId": null,
       "childIds": [
+        "nf_kgaCa02R8IrLcpGsTu0B9_OAZAT",
+        "nf_c23hhUlZt3VDMuhK2KF_W_ssVB2"
       ],
       "style": {
         "display": "flex",
@@ -33,6 +35,107 @@
         "borderColor": "border",
         "backgroundColor": "notification",
         "color": "text"
+      }
+    },
+    "nf_kgaCa02R8IrLcpGsTu0B9_OAZAT": {
+      "id": "nf_kgaCa02R8IrLcpGsTu0B9_OAZAT",
+      "type": "box",
+      "name": "BoxView",
+      "parentId": "nf_DTRYbdejGqqhglpDo3iMc_3jnjB",
+      "childIds": [
+        "nf_d1gF_Sy4nfrYUsWdplKFc_dS3ee"
+      ],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "gap": 16,
+        "paddingTop": 16,
+        "paddingRight": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "borderRadius": 8
+      },
+      "safeArea": {},
+      "themeBindings": {
+        "borderColor": "border",
+        "backgroundColor": "background",
+        "color": "text"
+      }
+    },
+    "nf_c23hhUlZt3VDMuhK2KF_W_ssVB2": {
+      "id": "nf_c23hhUlZt3VDMuhK2KF_W_ssVB2",
+      "type": "box",
+      "name": "BoxView",
+      "parentId": "nf_DTRYbdejGqqhglpDo3iMc_3jnjB",
+      "childIds": [],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "gap": 16,
+        "paddingTop": 16,
+        "paddingRight": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "borderRadius": 8
+      },
+      "safeArea": {},
+      "themeBindings": {
+        "borderColor": "border",
+        "backgroundColor": "background",
+        "color": "text"
+      }
+    },
+    "nf_d1gF_Sy4nfrYUsWdplKFc_dS3ee": {
+      "id": "nf_d1gF_Sy4nfrYUsWdplKFc_dS3ee",
+      "type": "slot",
+      "name": "SlotBox",
+      "parentId": "nf_kgaCa02R8IrLcpGsTu0B9_OAZAT",
+      "childIds": [],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "gap": 16,
+        "paddingTop": 16,
+        "paddingRight": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "borderRadius": 8
+      },
+      "safeArea": {},
+      "themeBindings": {
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "transparent"
       }
     }
   }
