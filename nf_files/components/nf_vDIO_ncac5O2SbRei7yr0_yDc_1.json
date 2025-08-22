@@ -8,8 +8,7 @@
       "parentId": null,
       "childIds": [
         "nf_1PGWMY9laTtUZh6RcjSvD_PcE9d",
-        "nf_H6HW8lwQ_UvkfeNgjcY16_gZAYD",
-        "nf_3j5JouizL24imf08bpTmv_ZY7v7"
+        "nf_H6HW8lwQ_UvkfeNgjcY16_gZAYD"
       ],
       "style": {
         "display": "flex",
@@ -102,14 +101,6 @@
         "color": "text"
       },
       "safeArea": {}
-    },
-    "nf_3j5JouizL24imf08bpTmv_ZY7v7": {
-      "id": "nf_3j5JouizL24imf08bpTmv_ZY7v7",
-      "name": "Test1",
-      "type": "reference",
-      "referenceId": "nf_DTRYbdejGqqhglpDo3iMc_3jnjB",
-      "childIds": [],
-      "parentId": "nf_vDIO_ncac5O2SbRei7yr0_yDc_1"
     }
   }
 }
