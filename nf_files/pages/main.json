@@ -41,7 +41,7 @@
         "nf_GzWeGYUrkivqQgHc5LGwz_kQcBg",
         "nf_YR5XxpduOESeyfAW_UB67_cZlT6",
         "nf_Bniynn3pOvW0zdY9LP_f7__sMix",
-        "nf_tfgVZxNoX609Xvo_IeXqI_rkJqC"
+        "nf_WCOuaO_2rpWme8dKQquLG_CzSGS"
       ],
       "style": {
         "display": "flex",
@@ -579,14 +579,6 @@
         "elevation": "nf_fQap7u49mKix8HAbiVh6r_lpyAo"
       }
     },
-    "nf_tfgVZxNoX609Xvo_IeXqI_rkJqC": {
-      "id": "nf_tfgVZxNoX609Xvo_IeXqI_rkJqC",
-      "name": "BoxView",
-      "type": "reference",
-      "referenceId": "nf_DTRYbdejGqqhglpDo3iMc_3jnjB",
-      "parentId": "nf_XrINv4YfeKoCIJmwZUwD7_raNPQ",
-      "childIds": []
-    },
     "nf_Y3Jn1yrWj0Emw_EmbEK8D_4cu2E": {
       "id": "nf_Y3Jn1yrWj0Emw_EmbEK8D_4cu2E",
       "type": "button",
@@ -664,6 +656,79 @@
         "color": "text"
       },
       "safeArea": {}
+    },
+    "nf_WCOuaO_2rpWme8dKQquLG_CzSGS": {
+      "id": "nf_WCOuaO_2rpWme8dKQquLG_CzSGS",
+      "name": "Test1",
+      "type": "reference",
+      "referenceId": "nf_DTRYbdejGqqhglpDo3iMc_3jnjB",
+      "childIds": [
+        "nf_b_gNUN5NQKP0x5OPl9uoO_zblnn"
+      ],
+      "parentId": "nf_XrINv4YfeKoCIJmwZUwD7_raNPQ"
+    },
+    "nf_b_gNUN5NQKP0x5OPl9uoO_zblnn": {
+      "id": "nf_b_gNUN5NQKP0x5OPl9uoO_zblnn",
+      "name": "SlotBox",
+      "type": "slot_binder",
+      "slotId": "nf_d1gF_Sy4nfrYUsWdplKFc_dS3ee",
+      "parentId": "nf_WCOuaO_2rpWme8dKQquLG_CzSGS",
+      "childIds": [
+        "nf_kbIvPAzhQkkpHx7_XRI46_yzxuU"
+      ]
+    },
+    "nf_kbIvPAzhQkkpHx7_XRI46_yzxuU": {
+      "id": "nf_kbIvPAzhQkkpHx7_XRI46_yzxuU",
+      "name": "Card",
+      "type": "reference",
+      "referenceId": "nf_vDIO_ncac5O2SbRei7yr0_yDc_1",
+      "childIds": [
+        "nf_n7Hwn7U87Raf34ISXWbSX_Vj2lJ"
+      ],
+      "parentId": "nf_b_gNUN5NQKP0x5OPl9uoO_zblnn"
+    },
+    "nf_n7Hwn7U87Raf34ISXWbSX_Vj2lJ": {
+      "id": "nf_n7Hwn7U87Raf34ISXWbSX_Vj2lJ",
+      "name": "HeaderSlot",
+      "type": "slot_binder",
+      "slotId": "nf_1PGWMY9laTtUZh6RcjSvD_PcE9d",
+      "parentId": "nf_kbIvPAzhQkkpHx7_XRI46_yzxuU",
+      "childIds": [
+        "nf_dxyiRipXkpz2MAYxCnXpo_3inor"
+      ]
+    },
+    "nf_dxyiRipXkpz2MAYxCnXpo_3inor": {
+      "id": "nf_dxyiRipXkpz2MAYxCnXpo_3inor",
+      "type": "box",
+      "name": "BoxView",
+      "parentId": "nf_n7Hwn7U87Raf34ISXWbSX_Vj2lJ",
+      "childIds": [],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "gap": 16,
+        "paddingTop": 16,
+        "paddingRight": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "borderRadius": 8
+      },
+      "safeArea": {},
+      "themeBindings": {
+        "borderColor": "border",
+        "backgroundColor": "text",
+        "color": "text"
+      }
     }
   }
 }
