@@ -8,7 +8,8 @@
       "parentId": null,
       "childIds": [
         "nf_1PGWMY9laTtUZh6RcjSvD_PcE9d",
-        "nf_H6HW8lwQ_UvkfeNgjcY16_gZAYD"
+        "nf_H6HW8lwQ_UvkfeNgjcY16_gZAYD",
+        "nf_4IKbLGcDtwafoCv9jP3P0_wP3E5"
       ],
       "style": {
         "display": "flex",
@@ -101,6 +102,55 @@
         "color": "text"
       },
       "safeArea": {}
+    },
+    "nf_4IKbLGcDtwafoCv9jP3P0_wP3E5": {
+      "id": "nf_4IKbLGcDtwafoCv9jP3P0_wP3E5",
+      "name": "Test1",
+      "type": "reference",
+      "referenceId": "nf_DTRYbdejGqqhglpDo3iMc_3jnjB",
+      "childIds": [
+        "nf_ul1r5jIZv0PUh3yVsJQKX_Ofqml"
+      ],
+      "parentId": "nf_vDIO_ncac5O2SbRei7yr0_yDc_1"
+    },
+    "nf_ul1r5jIZv0PUh3yVsJQKX_Ofqml": {
+      "id": "nf_ul1r5jIZv0PUh3yVsJQKX_Ofqml",
+      "name": "SlotBox",
+      "type": "slot_binder",
+      "slotId": "nf_d1gF_Sy4nfrYUsWdplKFc_dS3ee",
+      "parentId": "nf_4IKbLGcDtwafoCv9jP3P0_wP3E5",
+      "childIds": [
+        "nf_fJfESK43TOZfEBzhhxDIN_3BSP3"
+      ]
+    },
+    "nf_fJfESK43TOZfEBzhhxDIN_3BSP3": {
+      "id": "nf_fJfESK43TOZfEBzhhxDIN_3BSP3",
+      "type": "text",
+      "name": "Text",
+      "parentId": "nf_ul1r5jIZv0PUh3yVsJQKX_Ofqml",
+      "textData": "Lorem ipsum dolor sit amet...",
+      "childIds": [],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "minHeight": 0,
+        "minWidth": 0,
+        "fontSize": 14,
+        "lineHeight": 18
+      },
+      "themeBindings": {
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "text"
+      }
     }
   }
 }
