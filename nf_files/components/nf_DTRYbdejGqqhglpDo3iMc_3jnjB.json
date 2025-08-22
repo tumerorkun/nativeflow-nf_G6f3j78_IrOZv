@@ -7,8 +7,6 @@
       "name": "Test1",
       "parentId": null,
       "childIds": [
-        "nf_fZcrUpSXidiLSR7W1HL0j_VxDrA",
-        "nf_qlJkF9k78XxbHTeKALj6R_kRRY4"
       ],
       "style": {
         "display": "flex",
@@ -34,107 +32,6 @@
       "themeBindings": {
         "borderColor": "border",
         "backgroundColor": "notification",
-        "color": "text"
-      }
-    },
-    "nf_c24Zeo29hpS5Y5w9Dg3WJ_vn3Bx": {
-      "id": "nf_c24Zeo29hpS5Y5w9Dg3WJ_vn3Bx",
-      "type": "slot",
-      "name": "SlotBox",
-      "parentId": "nf_fZcrUpSXidiLSR7W1HL0j_VxDrA",
-      "childIds": [],
-      "style": {
-        "display": "flex",
-        "position": "relative",
-        "flexDirection": "column",
-        "alignContent": "flex-start",
-        "alignItems": "stretch",
-        "justifyContent": "flex-start",
-        "flexWrap": "nowrap",
-        "width": "auto",
-        "height": "auto",
-        "opacity": 1,
-        "gap": 16,
-        "paddingTop": 16,
-        "paddingRight": 16,
-        "paddingBottom": 16,
-        "paddingLeft": 16,
-        "borderWidth": 2,
-        "borderStyle": "solid",
-        "borderRadius": 8
-      },
-      "safeArea": {},
-      "themeBindings": {
-        "borderColor": "transparent",
-        "backgroundColor": "transparent",
-        "color": "transparent"
-      }
-    },
-    "nf_fZcrUpSXidiLSR7W1HL0j_VxDrA": {
-      "id": "nf_fZcrUpSXidiLSR7W1HL0j_VxDrA",
-      "type": "box",
-      "name": "BoxView",
-      "parentId": "nf_DTRYbdejGqqhglpDo3iMc_3jnjB",
-      "childIds": [
-        "nf_c24Zeo29hpS5Y5w9Dg3WJ_vn3Bx"
-      ],
-      "style": {
-        "display": "flex",
-        "position": "relative",
-        "flexDirection": "column",
-        "alignContent": "flex-start",
-        "alignItems": "stretch",
-        "justifyContent": "flex-start",
-        "flexWrap": "nowrap",
-        "width": "auto",
-        "height": "auto",
-        "opacity": 1,
-        "gap": 16,
-        "paddingTop": 16,
-        "paddingRight": 16,
-        "paddingBottom": 16,
-        "paddingLeft": 16,
-        "borderWidth": 2,
-        "borderStyle": "solid",
-        "borderRadius": 8
-      },
-      "safeArea": {},
-      "themeBindings": {
-        "borderColor": "border",
-        "backgroundColor": "background",
-        "color": "text"
-      }
-    },
-    "nf_qlJkF9k78XxbHTeKALj6R_kRRY4": {
-      "id": "nf_qlJkF9k78XxbHTeKALj6R_kRRY4",
-      "type": "box",
-      "name": "BoxView",
-      "parentId": "nf_DTRYbdejGqqhglpDo3iMc_3jnjB",
-      "childIds": [],
-      "style": {
-        "display": "flex",
-        "position": "relative",
-        "flexDirection": "column",
-        "alignContent": "flex-start",
-        "alignItems": "stretch",
-        "justifyContent": "flex-start",
-        "flexWrap": "nowrap",
-        "width": "auto",
-        "height": "auto",
-        "opacity": 1,
-        "gap": 16,
-        "paddingTop": 16,
-        "paddingRight": 16,
-        "paddingBottom": 16,
-        "paddingLeft": 16,
-        "borderWidth": 2,
-        "borderStyle": "solid",
-        "borderRadius": 8
-      },
-      "safeArea": {},
-      "themeBindings": {
-        "borderColor": "border",
-        "backgroundColor": "background",
         "color": "text"
       }
     }
