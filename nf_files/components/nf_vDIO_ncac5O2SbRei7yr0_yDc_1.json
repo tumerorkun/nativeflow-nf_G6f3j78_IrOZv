@@ -7,6 +7,7 @@
       "name": "Card",
       "parentId": null,
       "childIds": [
+        "nf_1PGWMY9laTtUZh6RcjSvD_PcE9d",
         "nf_H6HW8lwQ_UvkfeNgjcY16_gZAYD"
       ],
       "style": {
@@ -21,13 +22,15 @@
         "height": "auto",
         "opacity": 1,
         "gap": 16,
-        "paddingTop": 16,
-        "paddingRight": 16,
-        "paddingBottom": 16,
-        "paddingLeft": 16,
+        "paddingTop": 8,
+        "paddingRight": 8,
+        "paddingBottom": 8,
+        "paddingLeft": 8,
         "borderWidth": 2,
         "borderStyle": "solid",
-        "borderRadius": 8
+        "borderRadius": 8,
+        "minHeight": 250,
+        "minWidth": 200
       },
       "safeArea": {},
       "themeBindings": {
@@ -65,6 +68,39 @@
         "color": "text"
       },
       "safeArea": {}
+    },
+    "nf_1PGWMY9laTtUZh6RcjSvD_PcE9d": {
+      "id": "nf_1PGWMY9laTtUZh6RcjSvD_PcE9d",
+      "type": "slot",
+      "name": "HeaderSlot",
+      "parentId": "nf_vDIO_ncac5O2SbRei7yr0_yDc_1",
+      "childIds": [],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "row",
+        "alignContent": "stretch",
+        "alignItems": "stretch",
+        "justifyContent": "center",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "gap": 8,
+        "paddingTop": 16,
+        "paddingRight": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "borderRadius": 8
+      },
+      "safeArea": {},
+      "themeBindings": {
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "transparent"
+      }
     }
   }
 }
