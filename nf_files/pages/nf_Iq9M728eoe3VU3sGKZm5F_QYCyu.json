@@ -13,9 +13,9 @@
       "style": {
         "position": "relative",
         "flexDirection": "column",
-        "alignContent": "flex-start",
-        "alignItems": "stretch",
-        "justifyContent": "flex-start",
+        "alignContent": "center",
+        "alignItems": "center",
+        "justifyContent": "center",
         "flexWrap": "nowrap",
         "width": "100%",
         "height": "100%",
@@ -31,7 +31,8 @@
       },
       "themeBindings": {
         "backgroundColor": "background"
-      }
+      },
+      "safeArea": {}
     },
     "nf_aRtCtF5tAVTMIlevrsMlz_XTqoC": {
       "id": "nf_aRtCtF5tAVTMIlevrsMlz_XTqoC",
