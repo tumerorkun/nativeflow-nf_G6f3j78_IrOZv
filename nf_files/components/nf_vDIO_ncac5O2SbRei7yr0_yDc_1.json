@@ -9,7 +9,7 @@
       "childIds": [
         "nf_1PGWMY9laTtUZh6RcjSvD_PcE9d",
         "nf_H6HW8lwQ_UvkfeNgjcY16_gZAYD",
-        "nf_bFUNK0sJnPhBexqEQc4Vx_OHRyB"
+        "nf_3j5JouizL24imf08bpTmv_ZY7v7"
       ],
       "style": {
         "display": "flex",
@@ -103,9 +103,9 @@
       },
       "safeArea": {}
     },
-    "nf_bFUNK0sJnPhBexqEQc4Vx_OHRyB": {
-      "id": "nf_bFUNK0sJnPhBexqEQc4Vx_OHRyB",
-      "name": "BoxView",
+    "nf_3j5JouizL24imf08bpTmv_ZY7v7": {
+      "id": "nf_3j5JouizL24imf08bpTmv_ZY7v7",
+      "name": "Test1",
       "type": "reference",
       "referenceId": "nf_DTRYbdejGqqhglpDo3iMc_3jnjB",
       "childIds": [],
