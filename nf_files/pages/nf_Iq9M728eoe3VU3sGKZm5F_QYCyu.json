@@ -8,7 +8,7 @@
       "name": "Test",
       "parentId": null,
       "childIds": [
-        "nf_aRtCtF5tAVTMIlevrsMlz_XTqoC"
+        "nf_gf5_eAMffWZytLLUOijHP_Ib0by"
       ],
       "style": {
         "position": "relative",
@@ -34,31 +34,42 @@
       },
       "safeArea": {}
     },
-    "nf_aRtCtF5tAVTMIlevrsMlz_XTqoC": {
-      "id": "nf_aRtCtF5tAVTMIlevrsMlz_XTqoC",
+    "nf_gf5_eAMffWZytLLUOijHP_Ib0by": {
+      "id": "nf_gf5_eAMffWZytLLUOijHP_Ib0by",
       "name": "Card",
       "type": "reference",
       "referenceId": "nf_vDIO_ncac5O2SbRei7yr0_yDc_1",
       "childIds": [
-        "nf_DQ5gpmUAaruCOkV4LdTfo_GPlbA"
+        "nf_X9wLxt5krVIOaPm5CAPkh_z9Vv3",
+        "nf_bL2j8GOn4VUjvKktV7F61_q9h6m"
       ],
       "parentId": "nf_Iq9M728eoe3VU3sGKZm5F_QYCyu"
     },
-    "nf_DQ5gpmUAaruCOkV4LdTfo_GPlbA": {
-      "id": "nf_DQ5gpmUAaruCOkV4LdTfo_GPlbA",
+    "nf_X9wLxt5krVIOaPm5CAPkh_z9Vv3": {
+      "id": "nf_X9wLxt5krVIOaPm5CAPkh_z9Vv3",
       "name": "HeaderSlot",
       "type": "slot_binder",
       "slotId": "nf_1PGWMY9laTtUZh6RcjSvD_PcE9d",
-      "parentId": "nf_aRtCtF5tAVTMIlevrsMlz_XTqoC",
+      "parentId": "nf_gf5_eAMffWZytLLUOijHP_Ib0by",
       "childIds": [
-        "nf_GIptyd7prMpGievFh_mpG_GwIGD"
+        "nf_VqvuZwQSZWnN5I2YbKBXJ_e6eab"
       ]
     },
-    "nf_GIptyd7prMpGievFh_mpG_GwIGD": {
-      "id": "nf_GIptyd7prMpGievFh_mpG_GwIGD",
+    "nf_bL2j8GOn4VUjvKktV7F61_q9h6m": {
+      "id": "nf_bL2j8GOn4VUjvKktV7F61_q9h6m",
+      "name": "SlotBox",
+      "type": "slot_binder",
+      "slotId": "nf_QVnXNLAVpnHWAoMHCSAGf_wIXJ_",
+      "parentId": "nf_gf5_eAMffWZytLLUOijHP_Ib0by",
+      "childIds": [
+        "nf_aGWQAURSj8TNPtOaxo8SN_lhaiI"
+      ]
+    },
+    "nf_VqvuZwQSZWnN5I2YbKBXJ_e6eab": {
+      "id": "nf_VqvuZwQSZWnN5I2YbKBXJ_e6eab",
       "type": "box",
       "name": "BoxView",
-      "parentId": "nf_DQ5gpmUAaruCOkV4LdTfo_GPlbA",
+      "parentId": "nf_X9wLxt5krVIOaPm5CAPkh_z9Vv3",
       "childIds": [],
       "style": {
         "display": "flex",
@@ -78,13 +89,45 @@
         "paddingLeft": 16,
         "borderWidth": 2,
         "borderStyle": "solid",
-        "borderRadius": 8,
-        "flexGrow": 1
+        "borderRadius": 8
       },
       "safeArea": {},
       "themeBindings": {
         "borderColor": "border",
         "backgroundColor": "background",
+        "color": "text"
+      }
+    },
+    "nf_aGWQAURSj8TNPtOaxo8SN_lhaiI": {
+      "id": "nf_aGWQAURSj8TNPtOaxo8SN_lhaiI",
+      "type": "box",
+      "name": "BoxView",
+      "parentId": "nf_bL2j8GOn4VUjvKktV7F61_q9h6m",
+      "childIds": [],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "gap": 16,
+        "paddingTop": 16,
+        "paddingRight": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "borderRadius": 8
+      },
+      "safeArea": {},
+      "themeBindings": {
+        "borderColor": "border",
+        "backgroundColor": "text",
         "color": "text"
       }
     }
