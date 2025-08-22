@@ -6,7 +6,9 @@
       "type": "box",
       "name": "BoxView",
       "parentId": null,
-      "childIds": [],
+      "childIds": [
+        "nf_na34VKZW2fPWRyT4YtGjb_Z2ttL"
+      ],
       "style": {
         "display": "flex",
         "position": "relative",
@@ -32,6 +34,39 @@
         "borderColor": "border",
         "backgroundColor": "background",
         "color": "text"
+      }
+    },
+    "nf_na34VKZW2fPWRyT4YtGjb_Z2ttL": {
+      "id": "nf_na34VKZW2fPWRyT4YtGjb_Z2ttL",
+      "type": "slot",
+      "name": "SlotBox",
+      "parentId": "nf_DTRYbdejGqqhglpDo3iMc_3jnjB",
+      "childIds": [],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "gap": 16,
+        "paddingTop": 16,
+        "paddingRight": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "borderRadius": 8
+      },
+      "safeArea": {},
+      "themeBindings": {
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "transparent"
       }
     }
   }
