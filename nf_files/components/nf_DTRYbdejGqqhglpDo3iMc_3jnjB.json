@@ -4,10 +4,9 @@
     "nf_DTRYbdejGqqhglpDo3iMc_3jnjB": {
       "id": "nf_DTRYbdejGqqhglpDo3iMc_3jnjB",
       "type": "box",
-      "name": "BoxView",
+      "name": "Test1",
       "parentId": null,
-      "childIds": [
-      ],
+      "childIds": [],
       "style": {
         "display": "flex",
         "position": "relative",
