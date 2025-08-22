@@ -8,7 +8,8 @@
       "parentId": null,
       "childIds": [
         "nf_1PGWMY9laTtUZh6RcjSvD_PcE9d",
-        "nf_H6HW8lwQ_UvkfeNgjcY16_gZAYD"
+        "nf_H6HW8lwQ_UvkfeNgjcY16_gZAYD",
+        "nf_bFUNK0sJnPhBexqEQc4Vx_OHRyB"
       ],
       "style": {
         "display": "flex",
@@ -101,6 +102,14 @@
         "color": "text"
       },
       "safeArea": {}
+    },
+    "nf_bFUNK0sJnPhBexqEQc4Vx_OHRyB": {
+      "id": "nf_bFUNK0sJnPhBexqEQc4Vx_OHRyB",
+      "name": "BoxView",
+      "type": "reference",
+      "referenceId": "nf_DTRYbdejGqqhglpDo3iMc_3jnjB",
+      "childIds": [],
+      "parentId": "nf_vDIO_ncac5O2SbRei7yr0_yDc_1"
     }
   }
 }
