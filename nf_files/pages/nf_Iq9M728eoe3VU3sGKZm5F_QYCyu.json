@@ -7,7 +7,9 @@
       "type": "page",
       "name": "Test",
       "parentId": null,
-      "childIds": [],
+      "childIds": [
+        "nf_aRtCtF5tAVTMIlevrsMlz_XTqoC"
+      ],
       "style": {
         "position": "relative",
         "flexDirection": "column",
@@ -30,6 +32,24 @@
       "themeBindings": {
         "backgroundColor": "background"
       }
+    },
+    "nf_aRtCtF5tAVTMIlevrsMlz_XTqoC": {
+      "id": "nf_aRtCtF5tAVTMIlevrsMlz_XTqoC",
+      "name": "Card",
+      "type": "reference",
+      "referenceId": "nf_vDIO_ncac5O2SbRei7yr0_yDc_1",
+      "childIds": [
+        "nf_DQ5gpmUAaruCOkV4LdTfo_GPlbA"
+      ],
+      "parentId": "nf_Iq9M728eoe3VU3sGKZm5F_QYCyu"
+    },
+    "nf_DQ5gpmUAaruCOkV4LdTfo_GPlbA": {
+      "id": "nf_DQ5gpmUAaruCOkV4LdTfo_GPlbA",
+      "name": "HeaderSlot",
+      "type": "slot_binder",
+      "slotId": "nf_1PGWMY9laTtUZh6RcjSvD_PcE9d",
+      "parentId": "nf_aRtCtF5tAVTMIlevrsMlz_XTqoC",
+      "childIds": []
     }
   }
 }
