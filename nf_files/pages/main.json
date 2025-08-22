@@ -218,6 +218,17 @@
             "elevation": "none"
           }
         }
+      },
+      "actions": {
+        "onPress": [
+          {
+            "id": "nf_XVSgeDaXKWjB4qijSlPmE_uWbdD",
+            "type": "navigation",
+            "method": "navigate",
+            "to": "nf_Iq9M728eoe3VU3sGKZm5F_QYCyu",
+            "payload": {}
+          }
+        ]
       }
     },
     "nf_IPELeYkSqYdub5xVGjp99_xqDsg": {
