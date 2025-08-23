@@ -40,8 +40,7 @@
       "childIds": [
         "nf_GzWeGYUrkivqQgHc5LGwz_kQcBg",
         "nf_YR5XxpduOESeyfAW_UB67_cZlT6",
-        "nf_Bniynn3pOvW0zdY9LP_f7__sMix",
-        "nf_WCOuaO_2rpWme8dKQquLG_CzSGS"
+        "nf_Bniynn3pOvW0zdY9LP_f7__sMix"
       ],
       "style": {
         "display": "flex",
@@ -368,7 +367,9 @@
       "type": "box",
       "name": "BoxView",
       "parentId": "nf_XrINv4YfeKoCIJmwZUwD7_raNPQ",
-      "childIds": [],
+      "childIds": [
+        "nf_vI4PHtEOdhtWl0C2DXtk3_MHuZO"
+      ],
       "style": {
         "display": "flex",
         "position": "relative",
@@ -658,79 +659,6 @@
       },
       "safeArea": {}
     },
-    "nf_WCOuaO_2rpWme8dKQquLG_CzSGS": {
-      "id": "nf_WCOuaO_2rpWme8dKQquLG_CzSGS",
-      "name": "Test1",
-      "type": "reference",
-      "referenceId": "nf_DTRYbdejGqqhglpDo3iMc_3jnjB",
-      "childIds": [
-        "nf_b_gNUN5NQKP0x5OPl9uoO_zblnn"
-      ],
-      "parentId": "nf_XrINv4YfeKoCIJmwZUwD7_raNPQ"
-    },
-    "nf_b_gNUN5NQKP0x5OPl9uoO_zblnn": {
-      "id": "nf_b_gNUN5NQKP0x5OPl9uoO_zblnn",
-      "name": "SlotBox",
-      "type": "slot_binder",
-      "slotId": "nf_d1gF_Sy4nfrYUsWdplKFc_dS3ee",
-      "parentId": "nf_WCOuaO_2rpWme8dKQquLG_CzSGS",
-      "childIds": [
-        "nf_kbIvPAzhQkkpHx7_XRI46_yzxuU"
-      ]
-    },
-    "nf_kbIvPAzhQkkpHx7_XRI46_yzxuU": {
-      "id": "nf_kbIvPAzhQkkpHx7_XRI46_yzxuU",
-      "name": "Card",
-      "type": "reference",
-      "referenceId": "nf_vDIO_ncac5O2SbRei7yr0_yDc_1",
-      "childIds": [
-        "nf_n7Hwn7U87Raf34ISXWbSX_Vj2lJ"
-      ],
-      "parentId": "nf_b_gNUN5NQKP0x5OPl9uoO_zblnn"
-    },
-    "nf_n7Hwn7U87Raf34ISXWbSX_Vj2lJ": {
-      "id": "nf_n7Hwn7U87Raf34ISXWbSX_Vj2lJ",
-      "name": "HeaderSlot",
-      "type": "slot_binder",
-      "slotId": "nf_1PGWMY9laTtUZh6RcjSvD_PcE9d",
-      "parentId": "nf_kbIvPAzhQkkpHx7_XRI46_yzxuU",
-      "childIds": [
-        "nf_dxyiRipXkpz2MAYxCnXpo_3inor"
-      ]
-    },
-    "nf_dxyiRipXkpz2MAYxCnXpo_3inor": {
-      "id": "nf_dxyiRipXkpz2MAYxCnXpo_3inor",
-      "type": "box",
-      "name": "BoxView",
-      "parentId": "nf_n7Hwn7U87Raf34ISXWbSX_Vj2lJ",
-      "childIds": [],
-      "style": {
-        "display": "flex",
-        "position": "relative",
-        "flexDirection": "column",
-        "alignContent": "flex-start",
-        "alignItems": "stretch",
-        "justifyContent": "flex-start",
-        "flexWrap": "nowrap",
-        "width": "auto",
-        "height": "auto",
-        "opacity": 1,
-        "gap": 16,
-        "paddingTop": 16,
-        "paddingRight": 16,
-        "paddingBottom": 16,
-        "paddingLeft": 16,
-        "borderWidth": 2,
-        "borderStyle": "solid",
-        "borderRadius": 8
-      },
-      "safeArea": {},
-      "themeBindings": {
-        "borderColor": "border",
-        "backgroundColor": "text",
-        "color": "text"
-      }
-    },
     "nf_fU000zelp3LE7Nj2Q7OH2_OVP8r": {
       "id": "nf_fU000zelp3LE7Nj2Q7OH2_OVP8r",
       "type": "button",
@@ -808,6 +736,151 @@
         "color": "text"
       },
       "safeArea": {}
+    },
+    "nf_vI4PHtEOdhtWl0C2DXtk3_MHuZO": {
+      "id": "nf_vI4PHtEOdhtWl0C2DXtk3_MHuZO",
+      "name": "Test1",
+      "type": "reference",
+      "referenceId": "nf_DTRYbdejGqqhglpDo3iMc_3jnjB",
+      "childIds": [
+        "nf_uen8jMhqJrWS6a4QfxmLF_hnEly"
+      ],
+      "parentId": "nf_Bniynn3pOvW0zdY9LP_f7__sMix"
+    },
+    "nf_uen8jMhqJrWS6a4QfxmLF_hnEly": {
+      "id": "nf_uen8jMhqJrWS6a4QfxmLF_hnEly",
+      "name": "SlotBox",
+      "type": "slot_binder",
+      "slotId": "nf_d1gF_Sy4nfrYUsWdplKFc_dS3ee",
+      "parentId": "nf_vI4PHtEOdhtWl0C2DXtk3_MHuZO",
+      "childIds": [
+        "nf_OQ0iBS8xy2g5T542UOnBA_UIFVW"
+      ]
+    },
+    "nf_OQ0iBS8xy2g5T542UOnBA_UIFVW": {
+      "id": "nf_OQ0iBS8xy2g5T542UOnBA_UIFVW",
+      "name": "Card",
+      "type": "reference",
+      "referenceId": "nf_vDIO_ncac5O2SbRei7yr0_yDc_1",
+      "childIds": [
+        "nf_dutZM0RgwXu7XCj_EpZko_jIqjC",
+        "nf_lw2tlByUGTCZ65TqbW2dJ_yei1I"
+      ],
+      "parentId": "nf_uen8jMhqJrWS6a4QfxmLF_hnEly"
+    },
+    "nf_dutZM0RgwXu7XCj_EpZko_jIqjC": {
+      "id": "nf_dutZM0RgwXu7XCj_EpZko_jIqjC",
+      "name": "HeaderSlot",
+      "type": "slot_binder",
+      "slotId": "nf_1PGWMY9laTtUZh6RcjSvD_PcE9d",
+      "parentId": "nf_OQ0iBS8xy2g5T542UOnBA_UIFVW",
+      "childIds": [
+        "nf_esHDPGDboj31bRoTDEdy5_swIu5"
+      ]
+    },
+    "nf_lw2tlByUGTCZ65TqbW2dJ_yei1I": {
+      "id": "nf_lw2tlByUGTCZ65TqbW2dJ_yei1I",
+      "name": "SlotBox",
+      "type": "slot_binder",
+      "slotId": "nf_iuRgRSJNW2WgV3N4dxgSP_0V4LT",
+      "parentId": "nf_OQ0iBS8xy2g5T542UOnBA_UIFVW",
+      "childIds": [
+        "nf_6t8GQhliQnO20wszA_sYV_xoQ7q"
+      ]
+    },
+    "nf_esHDPGDboj31bRoTDEdy5_swIu5": {
+      "id": "nf_esHDPGDboj31bRoTDEdy5_swIu5",
+      "type": "button",
+      "name": "Button",
+      "parentId": "nf_dutZM0RgwXu7XCj_EpZko_jIqjC",
+      "childIds": [
+        "nf_hRa5qyBfLlVeEEanFeXz7_VGlhC"
+      ],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "center",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "gap": 4,
+        "minWidth": 44,
+        "minHeight": 44,
+        "paddingTop": 0,
+        "paddingRight": 8,
+        "paddingBottom": 0,
+        "paddingLeft": 8,
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "borderRadius": 16
+      },
+      "themeBindings": {
+        "borderColor": "border",
+        "backgroundColor": "background",
+        "color": "text"
+      }
+    },
+    "nf_hRa5qyBfLlVeEEanFeXz7_VGlhC": {
+      "id": "nf_hRa5qyBfLlVeEEanFeXz7_VGlhC",
+      "type": "text",
+      "name": "Text",
+      "parentId": "nf_esHDPGDboj31bRoTDEdy5_swIu5",
+      "textData": "Button",
+      "childIds": [],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "minHeight": 0,
+        "minWidth": 0,
+        "fontSize": 14,
+        "lineHeight": 18
+      },
+      "themeBindings": {
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "text"
+      }
+    },
+    "nf_6t8GQhliQnO20wszA_sYV_xoQ7q": {
+      "id": "nf_6t8GQhliQnO20wszA_sYV_xoQ7q",
+      "type": "box",
+      "name": "BoxView",
+      "parentId": "nf_lw2tlByUGTCZ65TqbW2dJ_yei1I",
+      "childIds": [],
+      "style": {
+        "display": "flex",
+        "position": "absolute",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "gap": 16,
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "borderRadius": 8
+      },
+      "safeArea": {},
+      "themeBindings": {
+        "borderColor": "border",
+        "backgroundColor": "notification",
+        "color": "text"
+      }
     }
   }
 }
