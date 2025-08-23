@@ -267,6 +267,7 @@
       "name": "Footer",
       "parentId": "main",
       "childIds": [
+        "nf_fU000zelp3LE7Nj2Q7OH2_OVP8r",
         "nf_lm5Zjyxmv70yoo57l7WHK_ZXjgs",
         "nf_Y3Jn1yrWj0Emw_EmbEK8D_4cu2E"
       ],
@@ -729,6 +730,84 @@
         "backgroundColor": "text",
         "color": "text"
       }
+    },
+    "nf_fU000zelp3LE7Nj2Q7OH2_OVP8r": {
+      "id": "nf_fU000zelp3LE7Nj2Q7OH2_OVP8r",
+      "type": "button",
+      "name": "Button",
+      "parentId": "nf_4PDCZNMo8xPgiyH_sPefd_J1O1s",
+      "childIds": [
+        "nf_UI_SIXAhpd_HDcxz4zkMB_fiqn5"
+      ],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "center",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "gap": 4,
+        "minWidth": 44,
+        "minHeight": 44,
+        "paddingTop": 0,
+        "paddingRight": 8,
+        "paddingBottom": 0,
+        "paddingLeft": 8,
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "borderRadius": 16
+      },
+      "themeBindings": {
+        "borderColor": "border",
+        "backgroundColor": "background",
+        "color": "text"
+      },
+      "actions": {
+        "onPress": [
+          {
+            "id": "nf_9OUSctI7uYZ11r6vXDI1z_VU6Mw",
+            "type": "navigation",
+            "method": "navigate",
+            "to": "nf_LfWElXraPsxo6Xo0VDXmK_FZSgZ",
+            "payload": {}
+          }
+        ]
+      },
+      "safeArea": {}
+    },
+    "nf_UI_SIXAhpd_HDcxz4zkMB_fiqn5": {
+      "id": "nf_UI_SIXAhpd_HDcxz4zkMB_fiqn5",
+      "type": "text",
+      "name": "Text",
+      "parentId": "nf_fU000zelp3LE7Nj2Q7OH2_OVP8r",
+      "textData": "Test3",
+      "childIds": [],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "minHeight": 0,
+        "minWidth": 0,
+        "fontSize": 14,
+        "lineHeight": 18
+      },
+      "themeBindings": {
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "text"
+      },
+      "safeArea": {}
     }
   }
 }
