@@ -120,14 +120,115 @@
       "slotId": "nf_d1gF_Sy4nfrYUsWdplKFc_dS3ee",
       "parentId": "nf_4IKbLGcDtwafoCv9jP3P0_wP3E5",
       "childIds": [
-        "nf_QVnXNLAVpnHWAoMHCSAGf_wIXJ_"
+        "nf_m29U0aaEUqQOjPYRTrfb9_njDRR"
       ]
     },
-    "nf_QVnXNLAVpnHWAoMHCSAGf_wIXJ_": {
-      "id": "nf_QVnXNLAVpnHWAoMHCSAGf_wIXJ_",
+    "nf_m29U0aaEUqQOjPYRTrfb9_njDRR": {
+      "id": "nf_m29U0aaEUqQOjPYRTrfb9_njDRR",
+      "type": "box",
+      "name": "BoxView",
+      "parentId": "nf_ul1r5jIZv0PUh3yVsJQKX_Ofqml",
+      "childIds": [
+        "nf_rqmaHQl1S0ZKuBBrnMD5D_xaxHX",
+        "nf_iuRgRSJNW2WgV3N4dxgSP_0V4LT"
+      ],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "row",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "gap": 16,
+        "paddingTop": 16,
+        "paddingRight": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "borderRadius": 8
+      },
+      "safeArea": {},
+      "themeBindings": {
+        "borderColor": "border",
+        "backgroundColor": "background",
+        "color": "text"
+      }
+    },
+    "nf_rqmaHQl1S0ZKuBBrnMD5D_xaxHX": {
+      "id": "nf_rqmaHQl1S0ZKuBBrnMD5D_xaxHX",
+      "type": "button",
+      "name": "Button",
+      "parentId": "nf_m29U0aaEUqQOjPYRTrfb9_njDRR",
+      "childIds": [
+        "nf_em_xwSaJt6bRedle3lFci_AAaFB"
+      ],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "center",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "gap": 4,
+        "minWidth": 44,
+        "minHeight": 44,
+        "paddingTop": 0,
+        "paddingRight": 8,
+        "paddingBottom": 0,
+        "paddingLeft": 8,
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "borderRadius": 16
+      },
+      "themeBindings": {
+        "borderColor": "border",
+        "backgroundColor": "background",
+        "color": "text"
+      }
+    },
+    "nf_em_xwSaJt6bRedle3lFci_AAaFB": {
+      "id": "nf_em_xwSaJt6bRedle3lFci_AAaFB",
+      "type": "text",
+      "name": "Text",
+      "parentId": "nf_rqmaHQl1S0ZKuBBrnMD5D_xaxHX",
+      "textData": "Button",
+      "childIds": [],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "minHeight": 0,
+        "minWidth": 0,
+        "fontSize": 14,
+        "lineHeight": 18
+      },
+      "themeBindings": {
+        "borderColor": "transparent",
+        "backgroundColor": "transparent",
+        "color": "text"
+      }
+    },
+    "nf_iuRgRSJNW2WgV3N4dxgSP_0V4LT": {
+      "id": "nf_iuRgRSJNW2WgV3N4dxgSP_0V4LT",
       "type": "slot",
       "name": "SlotBox",
-      "parentId": "nf_ul1r5jIZv0PUh3yVsJQKX_Ofqml",
+      "parentId": "nf_m29U0aaEUqQOjPYRTrfb9_njDRR",
       "childIds": [],
       "style": {
         "display": "flex",
