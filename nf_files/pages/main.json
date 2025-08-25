@@ -854,8 +854,10 @@
       "themeBindings": {
         "borderColor": "transparent",
         "backgroundColor": "transparent",
-        "color": "text"
-      }
+        "color": "text",
+        "font": "semibold"
+      },
+      "safeArea": {}
     },
     "nf_6t8GQhliQnO20wszA_sYV_xoQ7q": {
       "id": "nf_6t8GQhliQnO20wszA_sYV_xoQ7q",
