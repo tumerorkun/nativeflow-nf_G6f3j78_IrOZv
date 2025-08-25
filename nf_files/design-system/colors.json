@@ -11,7 +11,8 @@
     "black-030": "#0000004d",
     "black-015": "#00000026",
     "test1": "#ffffff",
-    "asd": "#ffffff"
+    "asd": "#ffffff",
+    "ahggfd": "#ffffff"
   },
   "light": {
     "primary": "#004883",
@@ -25,6 +26,7 @@
     "black-030": "#0000004d",
     "black-015": "#00000026",
     "test1": "#000000",
-    "asd": "#000000"
+    "asd": "#000000",
+    "ahggfd": "#000000"
   }
 }
