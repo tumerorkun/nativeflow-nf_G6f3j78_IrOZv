@@ -10,7 +10,8 @@
     "test": "#ffffff",
     "black-030": "#0000004d",
     "black-015": "#00000026",
-    "fghjfg": "#ffffff"
+    "fghjfg": "#ffffff",
+    "dfghd": "#ffffff"
   },
   "light": {
     "primary": "#004883",
@@ -23,6 +24,7 @@
     "test": "#000000",
     "black-030": "#0000004d",
     "black-015": "#00000026",
-    "fghjfg": "#000000"
+    "fghjfg": "#000000",
+    "dfghd": "#000000"
   }
 }
