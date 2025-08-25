@@ -9,7 +9,8 @@
     "transparent": "transparent",
     "test": "#ffffff",
     "black-030": "#0000004d",
-    "black-015": "#00000026"
+    "black-015": "#00000026",
+    "test1": "#ffffff"
   },
   "light": {
     "primary": "#004883",
@@ -21,6 +22,7 @@
     "transparent": "transparent",
     "test": "#000000",
     "black-030": "#0000004d",
-    "black-015": "#00000026"
+    "black-015": "#00000026",
+    "test1": "#000000"
   }
 }
