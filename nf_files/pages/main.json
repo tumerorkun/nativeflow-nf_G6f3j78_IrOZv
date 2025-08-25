@@ -5,7 +5,7 @@
     "main": {
       "id": "main",
       "type": "page",
-      "name": "Main",
+      "name": "___MAIN___",
       "parentId": null,
       "childIds": [
         "nf_58rss_JafyxAk97ADd49y_Ge4Ka",
