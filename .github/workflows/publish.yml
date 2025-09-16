@@ -21,7 +21,7 @@ on:
 
 jobs:
   iOS:
-    runs-on: macos-15
+    runs-on: macos-26
     env:
         APP_IDENTIFIER: ${{ github.event.inputs.bundle_id }}
         APPLE_USERNAME: ${{ secrets.APPLE_USERNAME }}
@@ -35,7 +35,7 @@ jobs:
         MATCH_REPO_BRANCH: ${{ secrets.MATCH_REPO_BRANCH }}
     steps:
       - name: Set Xcode version 
-        run: sudo xcode-select -s /Applications/Xcode_16.4.0.app
+        run: sudo xcode-select -s /Applications/Xcode_26.0.app
 
       - uses: actions/checkout@v4
 
@@ -62,14 +62,14 @@ jobs:
       - name: Show current version of Xcode
         run: xcodebuild -version
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
-          node-version: 22.14.0
+          node-version-file: '.nvmrc'
           cache: 'npm'
 
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.4.2
+          ruby-version: 3.4.5
 
       - name: Cache Vendor
         uses: actions/cache@v4
