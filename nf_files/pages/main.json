@@ -982,9 +982,7 @@
         "flexGrow": 1,
         "borderWidth": 0,
         "borderStyle": "solid",
-        "borderRadius": 0,
-        "minWidth": 100,
-        "minHeight": 100
+        "borderRadius": 0
       },
       "safeArea": {},
       "themeBindings": {
