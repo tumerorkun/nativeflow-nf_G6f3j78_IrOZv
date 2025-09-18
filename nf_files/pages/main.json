@@ -462,7 +462,7 @@
         "paddingTop": 0,
         "paddingRight": 0,
         "paddingBottom": 16,
-        "paddingLeft": 0,
+        "paddingLeft": 16,
         "borderWidth": 0,
         "borderStyle": "solid",
         "borderRadius": 8,
