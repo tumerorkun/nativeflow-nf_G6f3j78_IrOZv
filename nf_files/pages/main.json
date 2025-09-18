@@ -444,28 +444,31 @@
       "type": "box",
       "name": "BoxView",
       "parentId": "nf_ZRXXTOAJ50sGoyuQgex68_vlTDv",
-      "childIds": [],
+      "childIds": [
+        "nf_XdVRDfhdr5iAGuXFlcsKM_aHlAf"
+      ],
       "style": {
         "display": "flex",
         "position": "relative",
-        "flexDirection": "column",
-        "alignContent": "flex-start",
-        "alignItems": "stretch",
+        "flexDirection": "row",
+        "alignContent": "stretch",
+        "alignItems": "flex-start",
         "justifyContent": "flex-start",
         "flexWrap": "nowrap",
         "width": "auto",
         "height": "auto",
         "opacity": 1,
         "gap": 16,
-        "paddingTop": 16,
-        "paddingRight": 16,
+        "paddingTop": 0,
+        "paddingRight": 0,
         "paddingBottom": 16,
-        "paddingLeft": 16,
+        "paddingLeft": 0,
         "borderWidth": 0,
         "borderStyle": "solid",
         "borderRadius": 8,
         "minWidth": 100,
-        "flexGrow": 1
+        "flexGrow": 1,
+        "overflow": "hidden"
       },
       "safeArea": {},
       "themeBindings": {
@@ -946,6 +949,42 @@
         "borderRadius": 0,
         "flexGrow": 1,
         "flexShrink": 1
+      },
+      "safeArea": {},
+      "themeBindings": {
+        "borderColor": "border",
+        "backgroundColor": "background",
+        "color": "text"
+      }
+    },
+    "nf_XdVRDfhdr5iAGuXFlcsKM_aHlAf": {
+      "id": "nf_XdVRDfhdr5iAGuXFlcsKM_aHlAf",
+      "type": "image",
+      "name": "ImageView",
+      "image": {
+        "src": "https://www.nativeflow.app/assets/app_icons/any.png",
+        "fit": "contain"
+      },
+      "parentId": "nf_hh7siibBHGQZJHD6Jc9Y1_JdPas",
+      "childIds": [],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "gap": 16,
+        "flexGrow": 1,
+        "borderWidth": 0,
+        "borderStyle": "solid",
+        "borderRadius": 0,
+        "minWidth": 100,
+        "minHeight": 100
       },
       "safeArea": {},
       "themeBindings": {
