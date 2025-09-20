@@ -963,7 +963,7 @@
       "type": "image",
       "name": "ImageView",
       "image": {
-        "src": "nf_files/assets/images/kare-512.png",
+        "src": "https://www.nativeflow.app/assets/app_icons/dark.png",
         "fit": "contain"
       },
       "parentId": "nf_hh7siibBHGQZJHD6Jc9Y1_JdPas",
