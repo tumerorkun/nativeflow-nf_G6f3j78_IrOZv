@@ -103,7 +103,7 @@
     "nf_RZrwfVz7QqFalQVsHjYpk_VwycO": {
       "id": "nf_RZrwfVz7QqFalQVsHjYpk_VwycO",
       "type": "box",
-      "name": "Settings",
+      "name": "SettingsNotOnPlay",
       "parentId": "nf_R2Z8IrCaQHDLZY9BQNkU4_36Vb9",
       "childIds": [],
       "style": {
@@ -142,7 +142,10 @@
       "parentId": "nf_R2Z8IrCaQHDLZY9BQNkU4_36Vb9",
       "childIds": [
         "nf_uZA9GNrjqHooAvlOnEgar_CIAr3",
-        "nf_l4IFBj3dfKE6YlWzOvkiy_RC4Oy"
+        "nf_l4IFBj3dfKE6YlWzOvkiy_RC4Oy",
+        "nf_L34IxftBvBkBTWHtivvvJ_62EQC",
+        "nf_Tsa9JJx9DLZPkFbBTMooT_w0TLt",
+        "nf_MG_Z1yzyqSfLIVOGouCVn_4ng2X"
       ],
       "style": {
         "display": "flex",
@@ -172,7 +175,7 @@
     "nf_uZA9GNrjqHooAvlOnEgar_CIAr3": {
       "id": "nf_uZA9GNrjqHooAvlOnEgar_CIAr3",
       "type": "box",
-      "name": "BoxView",
+      "name": "BgImageSelect",
       "parentId": "nf_9u8MAmuTCzWhew2ACTbWb_elFdo",
       "childIds": [],
       "style": {
@@ -205,7 +208,106 @@
     "nf_l4IFBj3dfKE6YlWzOvkiy_RC4Oy": {
       "id": "nf_l4IFBj3dfKE6YlWzOvkiy_RC4Oy",
       "type": "box",
-      "name": "BoxView",
+      "name": "CenterrOnPlay",
+      "parentId": "nf_9u8MAmuTCzWhew2ACTbWb_elFdo",
+      "childIds": [],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 0,
+        "gap": 16,
+        "paddingTop": 16,
+        "paddingRight": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "borderRadius": 8
+      },
+      "safeArea": {},
+      "themeBindings": {
+        "borderColor": "border",
+        "backgroundColor": "background",
+        "color": "text"
+      }
+    },
+    "nf_Tsa9JJx9DLZPkFbBTMooT_w0TLt": {
+      "id": "nf_Tsa9JJx9DLZPkFbBTMooT_w0TLt",
+      "type": "box",
+      "name": "undoOnDraw",
+      "parentId": "nf_9u8MAmuTCzWhew2ACTbWb_elFdo",
+      "childIds": [],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 0,
+        "gap": 16,
+        "paddingTop": 16,
+        "paddingRight": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "borderRadius": 8
+      },
+      "safeArea": {},
+      "themeBindings": {
+        "borderColor": "border",
+        "backgroundColor": "background",
+        "color": "text"
+      }
+    },
+    "nf_MG_Z1yzyqSfLIVOGouCVn_4ng2X": {
+      "id": "nf_MG_Z1yzyqSfLIVOGouCVn_4ng2X",
+      "type": "box",
+      "name": "clearOnDraw",
+      "parentId": "nf_9u8MAmuTCzWhew2ACTbWb_elFdo",
+      "childIds": [],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 0,
+        "gap": 16,
+        "paddingTop": 16,
+        "paddingRight": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "borderRadius": 8
+      },
+      "safeArea": {},
+      "themeBindings": {
+        "borderColor": "border",
+        "backgroundColor": "background",
+        "color": "text"
+      }
+    },
+    "nf_L34IxftBvBkBTWHtivvvJ_62EQC": {
+      "id": "nf_L34IxftBvBkBTWHtivvvJ_62EQC",
+      "type": "box",
+      "name": "saveOnDraw",
       "parentId": "nf_9u8MAmuTCzWhew2ACTbWb_elFdo",
       "childIds": [],
       "style": {
