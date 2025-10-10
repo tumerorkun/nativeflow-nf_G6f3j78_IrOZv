@@ -1,0 +1,35 @@
+{
+  "rootId": "nf__NqFb8NaRJXstJDbrX5n0_IGSr8",
+  "homeIndicator": "visible",
+  "components": {
+    "nf__NqFb8NaRJXstJDbrX5n0_IGSr8": {
+      "id": "nf__NqFb8NaRJXstJDbrX5n0_IGSr8",
+      "type": "page",
+      "name": "Test",
+      "parentId": null,
+      "childIds": [],
+      "style": {
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "100%",
+        "height": "100%",
+        "display": "flex",
+        "flex": 1,
+        "flexShrink": 1,
+        "flexGrow": 1,
+        "gap": 0,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0
+      },
+      "themeBindings": {
+        "backgroundColor": "background"
+      }
+    }
+  }
+}
