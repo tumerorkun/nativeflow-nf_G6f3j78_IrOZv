@@ -8,7 +8,8 @@
       "name": "Test",
       "parentId": null,
       "childIds": [
-        "nf_yJLCNWyO6JenYbJbTyLqI_ekvWD"
+        "nf_yJLCNWyO6JenYbJbTyLqI_ekvWD",
+        "nf_Yko8vGYLyx6wNtR_snco1_SpyVW"
       ],
       "style": {
         "position": "relative",
@@ -35,6 +36,39 @@
     },
     "nf_yJLCNWyO6JenYbJbTyLqI_ekvWD": {
       "id": "nf_yJLCNWyO6JenYbJbTyLqI_ekvWD",
+      "type": "box",
+      "name": "BoxView",
+      "parentId": "nf__NqFb8NaRJXstJDbrX5n0_IGSr8",
+      "childIds": [],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "gap": 16,
+        "paddingTop": 16,
+        "paddingRight": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "borderRadius": 8
+      },
+      "safeArea": {},
+      "themeBindings": {
+        "borderColor": "border",
+        "backgroundColor": "background",
+        "color": "text"
+      }
+    },
+    "nf_Yko8vGYLyx6wNtR_snco1_SpyVW": {
+      "id": "nf_Yko8vGYLyx6wNtR_snco1_SpyVW",
       "type": "box",
       "name": "BoxView",
       "parentId": "nf__NqFb8NaRJXstJDbrX5n0_IGSr8",
