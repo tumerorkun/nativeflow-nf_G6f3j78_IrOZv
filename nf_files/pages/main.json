@@ -827,7 +827,7 @@
       },
       "themeBindings": {
         "borderColor": "border",
-        "backgroundColor": "background",
+        "backgroundColor": "text",
         "color": "text"
       },
       "safeArea": {}
@@ -858,7 +858,7 @@
       "themeBindings": {
         "borderColor": "transparent",
         "backgroundColor": "transparent",
-        "color": "text",
+        "color": "background",
         "font": "semibold"
       },
       "safeArea": {}
@@ -954,7 +954,7 @@
       "safeArea": {},
       "themeBindings": {
         "borderColor": "border",
-        "backgroundColor": "card",
+        "backgroundColor": "transparent",
         "color": "text"
       }
     },
