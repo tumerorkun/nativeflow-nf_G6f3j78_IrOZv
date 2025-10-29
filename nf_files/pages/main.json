@@ -510,7 +510,7 @@
       "safeArea": {},
       "themeBindings": {
         "borderColor": "border",
-        "backgroundColor": "background",
+        "backgroundColor": "notification",
         "color": "text",
         "elevation": "nf_fQap7u49mKix8HAbiVh6r_lpyAo"
       }
