@@ -28,7 +28,7 @@
         "borderWidth": 0
       },
       "themeBindings": {
-        "backgroundColor": "primary"
+        "backgroundColor": "background"
       },
       "safeArea": {}
     },
@@ -135,7 +135,7 @@
       "themeBindings": {
         "borderColor": "transparent",
         "backgroundColor": "transparent",
-        "color": "background",
+        "color": "text",
         "font": "semibold"
       },
       "safeArea": {}
@@ -357,7 +357,7 @@
       "safeArea": {},
       "themeBindings": {
         "borderColor": "border",
-        "backgroundColor": "background",
+        "backgroundColor": "primary",
         "color": "text"
       }
     },
@@ -432,7 +432,9 @@
         "flexDirection": "row",
         "gap": 16,
         "paddingRight": 8,
-        "paddingLeft": 8
+        "paddingLeft": 8,
+        "paddingTop": 8,
+        "paddingBottom": 8
       },
       "themeBindings": {
         "borderColor": "border",
