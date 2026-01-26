@@ -7,7 +7,6 @@
     "border": "#eeeeee",
     "notification": "#004883",
     "transparent": "transparent",
-    "test": "#4b7842",
     "black-030": "#0000004d",
     "black-015": "#00000026",
     "heberenk": "#ffffff"
@@ -20,7 +19,6 @@
     "border": "#030303",
     "notification": "#048bc3",
     "transparent": "transparent",
-    "test": "#e40b0b",
     "black-030": "#0000004d",
     "black-015": "#00000026",
     "heberenk": "#000000"
