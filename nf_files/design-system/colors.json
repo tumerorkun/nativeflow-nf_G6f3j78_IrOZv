@@ -10,7 +10,8 @@
     "test": "#4b7842",
     "black-030": "#0000004d",
     "black-015": "#00000026",
-    "heberenk": "#ffffff"
+    "heberenk": "#ffffff",
+    "testdb": "#32dee4"
   },
   "light": {
     "primary": "#004883",
@@ -23,6 +24,7 @@
     "test": "#e40b0b",
     "black-030": "#0000004d",
     "black-015": "#00000026",
-    "heberenk": "#000000"
+    "heberenk": "#000000",
+    "testdb": "#4253ef"
   }
 }
