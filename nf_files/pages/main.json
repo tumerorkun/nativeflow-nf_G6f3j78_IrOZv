@@ -547,7 +547,7 @@
       "safeArea": {},
       "themeBindings": {
         "borderColor": "border",
-        "backgroundColor": "text",
+        "backgroundColor": "border",
         "color": "text",
         "elevation": "nf_fQap7u49mKix8HAbiVh6r_lpyAo"
       }
