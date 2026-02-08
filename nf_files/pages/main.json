@@ -169,7 +169,7 @@
       },
       "themeBindings": {
         "borderColor": "transparent",
-        "backgroundColor": "transparent",
+        "backgroundColor": "heberenk",
         "color": "text"
       }
     },
