@@ -94,6 +94,19 @@
           "color": "black-030"
         }
       ]
+    },
+    "nf_4ovYeinhwrj0nt4PjYGf__LAQUD": {
+      "name": "elevation-6",
+      "elevation": [
+        {
+          "offsetX": 1,
+          "offsetY": 1,
+          "blurRadius": 0,
+          "spreadDistance": 0,
+          "color": "notification",
+          "inset": false
+        }
+      ]
     }
   },
   "dark": {
@@ -189,6 +202,18 @@
           "blurRadius": 4,
           "spreadDistance": 0,
           "color": "black-030"
+        }
+      ]
+    },
+    "nf_4ovYeinhwrj0nt4PjYGf__LAQUD": {
+      "name": "elevation-6",
+      "elevation": [
+        {
+          "offsetX": 1,
+          "offsetY": 1,
+          "blurRadius": 0,
+          "spreadDistance": 0,
+          "color": "notification"
         }
       ]
     }
