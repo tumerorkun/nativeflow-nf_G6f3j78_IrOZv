@@ -103,8 +103,9 @@
           "offsetY": 1,
           "blurRadius": 0,
           "spreadDistance": 0,
-          "color": "notification",
-          "inset": false
+          "color": "heberenk",
+          "inset": false,
+          "isHidden": false
         }
       ]
     }
