@@ -1,0 +1,38 @@
+{
+  "rootId": "nf_YrZhaXqwAEA9o5yGYjW6n_5MyV2",
+  "components": {
+    "nf_YrZhaXqwAEA9o5yGYjW6n_5MyV2": {
+      "id": "nf_YrZhaXqwAEA9o5yGYjW6n_5MyV2",
+      "type": "box",
+      "name": "ToDelete",
+      "parentId": null,
+      "childIds": [],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "gap": 16,
+        "paddingTop": 16,
+        "paddingRight": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "borderRadius": 8
+      },
+      "safeArea": {},
+      "themeBindings": {
+        "borderColor": "border",
+        "backgroundColor": "background",
+        "color": "text"
+      }
+    }
+  }
+}
