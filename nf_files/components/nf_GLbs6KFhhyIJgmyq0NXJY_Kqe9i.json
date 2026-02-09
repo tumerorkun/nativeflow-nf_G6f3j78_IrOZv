@@ -1,0 +1,38 @@
+{
+  "rootId": "nf_GLbs6KFhhyIJgmyq0NXJY_Kqe9i",
+  "components": {
+    "nf_GLbs6KFhhyIJgmyq0NXJY_Kqe9i": {
+      "id": "nf_GLbs6KFhhyIJgmyq0NXJY_Kqe9i",
+      "type": "box",
+      "name": "Kagit",
+      "parentId": null,
+      "childIds": [],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "flex-start",
+        "alignItems": "stretch",
+        "justifyContent": "flex-start",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "gap": 16,
+        "paddingTop": 16,
+        "paddingRight": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "borderRadius": 8
+      },
+      "safeArea": {},
+      "themeBindings": {
+        "borderColor": "border",
+        "backgroundColor": "background",
+        "color": "text"
+      }
+    }
+  }
+}
