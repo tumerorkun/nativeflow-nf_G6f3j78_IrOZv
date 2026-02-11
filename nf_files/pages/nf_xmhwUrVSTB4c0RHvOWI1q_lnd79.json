@@ -28,8 +28,9 @@
         "paddingLeft": 0
       },
       "themeBindings": {
-        "backgroundColor": "background"
-      }
+        "backgroundColor": "primary"
+      },
+      "safeArea": {}
     }
   }
 }
