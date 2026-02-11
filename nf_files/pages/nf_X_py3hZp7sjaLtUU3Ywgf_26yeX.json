@@ -22,14 +22,15 @@
         "flexShrink": 1,
         "flexGrow": 1,
         "gap": 0,
-        "paddingTop": 0,
+        "paddingTop": 7,
         "paddingRight": 0,
         "paddingBottom": 0,
         "paddingLeft": 0
       },
       "themeBindings": {
-        "backgroundColor": "background"
-      }
+        "backgroundColor": "text"
+      },
+      "safeArea": {}
     }
   }
 }
