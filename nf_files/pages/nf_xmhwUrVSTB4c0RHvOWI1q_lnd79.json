@@ -28,7 +28,7 @@
         "paddingLeft": 0
       },
       "themeBindings": {
-        "backgroundColor": "notification"
+        "backgroundColor": "text"
       },
       "safeArea": {}
     }
