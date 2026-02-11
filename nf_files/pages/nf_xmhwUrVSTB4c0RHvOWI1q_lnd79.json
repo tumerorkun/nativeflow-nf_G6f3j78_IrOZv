@@ -28,7 +28,7 @@
         "paddingLeft": 0
       },
       "themeBindings": {
-        "backgroundColor": "border"
+        "backgroundColor": "primary"
       },
       "safeArea": {}
     }
