@@ -32,6 +32,12 @@
         "name": "Deneme_1",
         "type": "page",
         "children": []
+      },
+      {
+        "id": "nf_SJtAZ0DlN7nXLmEYM0nwk_bJNz_",
+        "name": "Deneme_2",
+        "type": "page",
+        "children": []
       }
     ]
   }
