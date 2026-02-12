@@ -7,7 +7,9 @@
       "type": "page",
       "name": "Deneme_3",
       "parentId": null,
-      "childIds": [],
+      "childIds": [
+        "nf_6MNYTZMAMgfRfyjYMKbxf_ucUjO"
+      ],
       "style": {
         "position": "relative",
         "flexDirection": "column",
@@ -31,6 +33,40 @@
         "backgroundColor": "notification"
       },
       "safeArea": {}
+    },
+    "nf_6MNYTZMAMgfRfyjYMKbxf_ucUjO": {
+      "id": "nf_6MNYTZMAMgfRfyjYMKbxf_ucUjO",
+      "type": "button",
+      "name": "Button",
+      "parentId": "nf_X_py3hZp7sjaLtUU3Ywgf_26yeX",
+      "childIds": [],
+      "style": {
+        "display": "flex",
+        "position": "relative",
+        "flexDirection": "column",
+        "alignContent": "center",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "flexWrap": "nowrap",
+        "width": "auto",
+        "height": "auto",
+        "opacity": 1,
+        "gap": 4,
+        "minWidth": 44,
+        "minHeight": 44,
+        "paddingTop": 0,
+        "paddingRight": 8,
+        "paddingBottom": 0,
+        "paddingLeft": 8,
+        "borderWidth": 2,
+        "borderStyle": "solid",
+        "borderRadius": 16
+      },
+      "themeBindings": {
+        "borderColor": "border",
+        "backgroundColor": "background",
+        "color": "text"
+      }
     }
   }
 }
